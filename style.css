@@ -35,6 +35,7 @@ nav {
     width: 100vw;
     max-width:100%;
     align-items: center;
+    
 }
 
 .middle {
@@ -436,6 +437,32 @@ textarea {
     margin-top: -10%;
 }
 
+.social {
+    width: fit-content;
+    float: right;
+    padding:20px 60px;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 0 0 0 40px;
+}
+
+.social > .socialUL > li{
+    display: inline;
+    list-style: none;
+    padding: 0 12px;
+    
+}
+
+.social > .socialUL > li > a > img{
+    width:32px;
+}
+
+
+
+
+
 @media screen and (max-width: 1307px) {
     nav {
         background-color: hsla(41, 43%, 35%, 0.767);
@@ -650,7 +677,43 @@ textarea {
     
 }
 
+@media screen and (max-width: 432px) {
+
+    .threeLines {
+        margin-top: -61px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+}
+
 @media screen and (max-width: 416px) {
+
+    .threeLines {
+        margin-top: -61px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .threeX {
+        margin-top: -50px;
+        color: white;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 347px) {
 
     .threeLines {
         margin-top: -92px;
@@ -684,33 +747,6 @@ textarea {
         line-height: 16px;
         display: block;
         cursor: pointer;
-    }
-}
-
-@media screen and (max-width: 432px) {
-
-    .threeLines {
-        margin-top: -61px;
-        color: white;
-        font-size: 120px;
-        line-height: 16px;
-        display: block;
-        cursor: pointer;
-        padding-right: 20px;
-    }
-
-}
-
-@media screen and (max-width: 347px) {
-
-    .threeLines {
-        margin-top: -92px;
-        color: white;
-        font-size: 120px;
-        line-height: 16px;
-        display: block;
-        cursor: pointer;
-        padding-right: 20px;
     }
 
 }
