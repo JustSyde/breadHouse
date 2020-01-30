@@ -421,6 +421,28 @@ textarea {
     overflow: hidden;
 }
 
+@media screen and (max-width: 1307px) {
+    nav {
+        background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
+        padding: 5px 100px;
+        width: 100vw;
+        max-width:100%;
+        align-items: center;
+    }
+    .middle {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 1207px) {
+    .divisionLine {
+        border-radius: 0;
+    }
+}
+
 @media screen and (max-width: 1120px) {
     .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
         white-space: nowrap;
@@ -446,6 +468,7 @@ textarea {
     
     nav {
         background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
         padding: 5px 100px;
         width: 100vw;
         max-width:100%;
@@ -486,6 +509,7 @@ textarea {
 
     nav {
         background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
         padding: 5px 0px;
         width: 100vw;
         max-width:100%;
@@ -614,7 +638,7 @@ textarea {
 @media screen and (max-width: 432px) {
 
     .threeLines {
-        margin-top: -92px;
+        margin-top: -61px;
         color: white;
         font-size: 120px;
         line-height: 16px;
@@ -625,7 +649,19 @@ textarea {
 
 }
 
+@media screen and (max-width: 347px) {
 
+    .threeLines {
+        margin-top: -92px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+}
 
 
 
