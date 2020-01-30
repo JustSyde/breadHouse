@@ -14,11 +14,9 @@
     width: 80%;
 }
 
-body {
+.headerImage {
+    width: 100%;
     background-image: url("https://images.wallpaperscraft.com/image/wheat_spikelets_field_144604_1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 body > .slideHolder {
@@ -189,14 +187,21 @@ textarea {
 
 .divisionLine {
     width: 100%;
-    height: 50px;
-    background-color: #bb964b;
+    height: 100px;
+    /*background-color: #bb964b;*/
     border-radius: 40px 40px 0 0;
 }
 
 .slideHolder {
     padding: 40px 0;
-    background: rgb(46, 46, 46) ;
+}
+
+.backgroundd {
+    background-image: url("img/repeatingBarley2.jpg");
+    background-size: 50%;
+    background-color: rgb(51, 34, 23);
+    background-blend-mode: multiply;
+    background-position-x: 7%;
 }
 
 .displayHolderOne {
@@ -342,10 +347,12 @@ textarea {
 }
 
 .slider {
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
     max-width: 1100px;
     overflow: hidden;
     position: relative;
+    filter: drop-shadow(0px 10px 6px black);
+    animation: drop 1.5s ease;
 }
 
 .slides {
@@ -419,6 +426,14 @@ textarea {
 
 .scrollNo{
     overflow: hidden;
+}
+
+.lll {
+    margin-top: 10%;
+}
+
+.sss {
+    margin-top: -10%;
 }
 
 @media screen and (max-width: 1307px) {
@@ -502,8 +517,45 @@ textarea {
         margin-top: 0;
         padding: 5px 0px 4.8px 0px;
     }
-}
 
+    .slideHolder {
+        padding: 40px 0;
+    }
+
+    .backgroundd {
+        background-image: url("img/repeatingBarley2.jpg");
+        background-size: 50%;
+        background-color: rgb(51, 34, 23);
+        background-blend-mode: multiply;
+        background-position-x: 0;
+    }
+
+    .innerHolder {
+        width: 100%;
+        padding: 4% 16%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+    .lll {
+        margin-top: 0;
+    }
+
+    .sss {
+        margin-top: 0;
+    }
+
+    .displayHolderOne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+
+}
 
 @media screen and (max-width: 684px) {
 
