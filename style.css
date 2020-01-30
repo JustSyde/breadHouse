@@ -29,6 +29,9 @@ body > .slideHolder {
 }
 
 nav {
+    background-image: url("img/repeatingBarley.jpg");
+    background-size: 25%;
+    background-blend-mode: soft-light;
     background-color: hsla(41, 43%, 35%, 0.767);
     border-radius: 0 0 100px 100px;
     padding: 5px 0;
@@ -54,8 +57,8 @@ nav > .middle > .left > a > img {
 
 nav > .middle > .left > a {
     text-decoration-style: double;
-    text-decoration-color: #bb964b;
-    color: white;
+    text-decoration-color: #fdcb67;
+    color: #141414;
     font-size: 36px; 
 }
 
@@ -84,7 +87,7 @@ nav > .middle > .right > ul > li{
 
 nav > .middle > .right > ul > li > a{
     text-decoration: none;
-    color: white;
+    color: #141414;
     padding: 5px;
 }
 
@@ -98,7 +101,7 @@ nav > .middle > .right > ul > li > a:hover{
 
 nav > .middle > .right > ul > li > .current_page{
     text-decoration: none;
-    color: white;
+    color: #fdcb67;
     font-weight: bold;
     padding:5px;
     background-color: hsl(0, 0%, 19%);
@@ -249,7 +252,7 @@ textarea {
 .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
     white-space: nowrap;
     color: white;
-    font-size: 44px;
+    font-size: 33px;
     position: absolute;
     text-align: left;
     top: 50%;
@@ -301,8 +304,9 @@ textarea {
 }
 
 .hold_text > .attention_text {
+    white-space: nowrap;
     margin: 0 auto;
-    font-size: 44px;
+    font-size: 40px;
     text-align: center;
     padding: 0px 0 30px 0;
     font-weight: bold;
@@ -459,7 +463,15 @@ textarea {
     width:32px;
 }
 
+footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 20px 0;
+}
 
+footer > p {
+    color: #fdcb67;
+}
 
 
 
@@ -529,8 +541,8 @@ textarea {
     
     nav > .middle > .left > a {
         text-decoration-style: double;
-        text-decoration-color: #7c7c7c;
-        color: white;
+        text-decoration-color: #fdcb67;
+        color: #141414;
         font-size: 36px; 
     }
     
@@ -648,14 +660,14 @@ textarea {
     }
     nav > .middle > .left > a {
         text-decoration-style: double;
-        text-decoration-color: #7c7c7c;
-        color: white;
+        text-decoration-color: #fdcb67;
+        color: #141414;
         font-size: 28px; 
     }
 
     .threeX {
         margin-top: -51px;
-        color: white;
+        color: #141414;
         font-size: 60px;
         line-height: 16px;
         display: block;
@@ -666,7 +678,7 @@ textarea {
 
     .threeLines {
         margin-top: -61px;
-        color: white;
+        color: #141414;
         font-size: 120px;
         line-height: 16px;
         display: block;
@@ -681,7 +693,7 @@ textarea {
 
     .threeLines {
         margin-top: -61px;
-        color: white;
+        color: #141414;
         font-size: 120px;
         line-height: 16px;
         display: block;
@@ -695,7 +707,7 @@ textarea {
 
     .threeLines {
         margin-top: -61px;
-        color: white;
+        color: #141414;
         font-size: 120px;
         line-height: 16px;
         display: block;
@@ -705,7 +717,7 @@ textarea {
 
     .threeX {
         margin-top: -50px;
-        color: white;
+        color: #141414;
         font-size: 60px;
         line-height: 16px;
         display: block;
@@ -717,7 +729,7 @@ textarea {
 
     .threeLines {
         margin-top: -92px;
-        color: white;
+        color: #141414;
         font-size: 120px;
         line-height: 16px;
         display: block;
@@ -742,7 +754,7 @@ textarea {
 
     .threeX {
         margin-top: -76px;
-        color: white;
+        color: #141414;
         font-size: 60px;
         line-height: 16px;
         display: block;
@@ -751,7 +763,31 @@ textarea {
 
 }
 
+@media screen and (max-width: 356px) {
+    .social {
+        width: fit-content;
+        width: 100%;
+        padding:20px 60px;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 0 0 0 40px;
+        text-align: center;
+    }
+    
+    .social > .socialUL > li{
+        display: inline;
+        list-style: none;
+        padding: 0 6px;
+        
+    }
+    
+    .social > .socialUL > li > a > img{
+        width:24px;
+    }
 
+}
 
 
 

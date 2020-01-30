@@ -90,7 +90,7 @@ $(function(){
             $press1.css("font-size", $fontSize+$fontSize/2 + "px");
             $press1.css("width", $fontSize*12 + "px")
             $('.press').css("width", $fontSize*6 + "px");
-            $attentionText.css("font-size", $fontSize*2 + "px");
+            $attentionText.css("font-size", $fontSize*1.81 + "px");
             $attentionText.css("max-width", (($fontSize*50)/1.22)  + "px");
             $attentionText.css("padding-top", (($fontSize*50)/18.33)/2  + "px");
             $attentionText.css("padding-bottom", (($fontSize*50)/18.33)/2  + "px");
