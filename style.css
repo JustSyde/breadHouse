@@ -1,0 +1,711 @@
+* {
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.screenWidth {
+    max-width: 1100px;
+}
+
+.textWidth {
+    width: 80%;
+}
+
+body {
+    background-image: url("https://images.wallpaperscraft.com/image/wheat_spikelets_field_144604_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body > .slideHolder {
+    /*background-color: rgba(80, 52, 0, 0.5);*/
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    background-color: hsla(41, 43%, 35%, 0.767);
+    border-radius: 0 0 100px 100px;
+    padding: 5px 0;
+    width: 100vw;
+    max-width:100%;
+    align-items: center;
+}
+
+.middle {
+    margin: auto;
+    width: 1100px;
+}
+
+nav > .middle > .left {
+    display: flex;
+}
+
+nav > .middle > .left > a > img {
+    width: 100px;
+    float:left;
+}
+
+nav > .middle > .left > a {
+    text-decoration-style: double;
+    text-decoration-color: #bb964b;
+    color: white;
+    font-size: 36px; 
+}
+
+nav > .middle > .left > a > h1{
+    margin-bottom: 14px;
+    padding-top: 14px;
+}
+
+nav > .middle > .right {
+    float:right;
+    margin-top: -58px;
+    padding: 5px 0px 4.8px 0px;
+}
+
+nav > .middle > .right > ul {
+    display:flex;
+    font-size:20px;
+}
+
+nav > .middle > .right > ul > li{
+    display:inline;
+	padding:0 10px 0 10px;
+	font-size:20px;
+    
+}
+
+nav > .middle > .right > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav > .middle > .right > ul > li > a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #1c1c1c;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+nav > .middle > .right > ul > li > .current_page{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding:5px;
+    background-color: hsl(0, 0%, 19%);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.darkmode > img {
+    max-width: 18px;
+    margin-top:-6px;
+}
+
+.night_mode {
+    background-color: rgb(68, 69, 82);
+}
+
+.bottomOfDaPage {
+    background-color: rgba(84, 99, 114, 0.750);
+    height: 100%;
+    width: 100vw;
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.bottomOfDaPage > form {
+    color:white;
+    padding:20px;
+    width: 240px;
+    border: solid 2px #1c1c1c;
+}
+
+.bottomOfDaPage > form > input {
+    padding:4px;
+    display: block;
+    border:solid 2px rgb(41, 41, 41);
+    border-radius: 4px;
+    width: 200px;
+}
+
+.inph {
+    padding:4px;
+    display: block;
+    border:solid 2px rgb(108, 158, 204);
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+    display: block;
+    border:solid 2px rgb(41, 41, 41);
+    border-radius: 4px;
+    padding:4px;
+}
+
+.bottomOfDaPage > form > button {
+    display: block;
+    padding:2px;
+    color: #1c1c1c;
+    border:solid 1px rgb(41, 41, 41);
+    border-radius: 3px;
+    margin-top:10px;
+
+}
+
+.bottomOfDaPage > form > label {
+    padding-top: 6px;
+    display: block;
+    font-size: 12px;
+}
+
+.bottomOfDaPage > form > .indd {
+    display: inline;
+}
+
+.bottomOfDaPage > form > .iddc {
+    display: inline;
+    max-width: 10px;
+}
+
+.disnon {
+    display: none;
+}
+
+.divisionLine {
+    width: 100%;
+    height: 50px;
+    background-color: #bb964b;
+    border-radius: 40px 40px 0 0;
+}
+
+.slideHolder {
+    padding: 40px 0;
+    background: rgb(46, 46, 46) ;
+}
+
+.displayHolderOne {
+    width: 100%;
+    display: flex;
+}
+
+.innerHolder {
+    width: 50%;
+    padding: 4%;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer > img {
+    width: 100%;
+    display: block;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay {
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text1 {
+    color: white;
+    font-size: 22px;
+    padding: 20px 80px;
+    line-height: 3;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay {
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay::-webkit-scrollbar {
+    display: none;
+}
+
+.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > img{
+    height: 100%;
+}
+
+.hmm::-webkit-scrollbar {
+    display: none;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+
+:-moz-any(#content,#appcontent) browser{
+    margin-right:-14px!important;
+    overflow-y:scroll;
+    margin-bottom:-14px!important;
+    overflow-x:scroll;
+}
+.hold_text {
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    background-color: #7e6533;
+    width: 100%;
+}
+
+.hold_text > .attention_text {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+    width: 90%;
+    color: rgb(255, 255, 255);
+}
+
+.spacious {
+    text-align: center;
+    width: 100%;
+    background-color: #46739150;
+    padding: 400px 0;
+}
+
+.spacious > p {
+    margin: 0 auto;
+    font-size: 36px;
+    color: white;
+    max-width: 1100px;
+}
+
+.press:hover{
+    cursor: pointer;
+}
+
+.press {
+    background-color: rgba(0, 65, 186, 0.329);
+    border-radius: 4px;
+    width: 124px;
+    padding:4px;
+}
+
+.press1 {
+    font-size: 24px;
+    background-color: rgba(17, 75, 0, 0.76);
+    border-radius: 4px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.press1:hover{
+    cursor: pointer;
+}
+
+.slider {
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    list-style: none;
+    display: flex;
+    width: 6000px;
+    margin: 0;
+    padding: 0;
+    transition: .5s ease;
+}
+
+.slider > .slides > .slide > img {
+    margin: 0;
+    float:left;
+    list-style-type: none;
+}
+
+
+
+.slider > .rightarr{
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    transform: translate(-50%, -50%);
+    max-height: 64px;
+    border-radius: 20px 0 0 20px;
+}
+
+.slider > .leftarr{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    max-height: 64px;
+    border-radius: 0 20px 20px 0;
+}
+
+.slider > .rightHalf{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.slider > .leftHalf{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.slider > img{
+    opacity: 0.9;
+}
+
+.slider > img:hover{
+    cursor: pointer;
+}
+
+.nib {
+    display:none;
+}
+
+.threeLines {
+    color: white;
+    font-size: 60px;
+    line-height: 8px;
+    display: none;
+}
+
+.scrollNo{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1120px) {
+    .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+        white-space: nowrap;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .screenWidth {
+        max-width: 100vw;
+    }
+
+    .textWidth {
+        max-width: calc(100vw - 22.22%);
+    }
+
+    .nib {
+        display:block;
+    }
+    
+    nav {
+        background-color: rgba(50, 87, 67, 0.749);
+        padding: 5px 100px;
+        width: 100vw;
+        max-width:100%;
+        align-items: center;
+    }
+    
+    .middle {
+        margin: auto;
+        width: fit-content;
+        padding-bottom: 4px;
+    }
+    
+    nav > .middle > .left {
+        display: block;
+    }
+    
+    nav > .middle > .left > a {
+        text-decoration-style: double;
+        text-decoration-color: #7c7c7c;
+        color: white;
+        font-size: 36px; 
+    }
+    
+    nav > .middle > .left > a > h1{
+        margin-bottom: 14px;
+        padding-top: 14px;
+        text-align: center;
+    }
+    
+    nav > .middle > .right {
+        margin-top: 0;
+        padding: 5px 0px 4.8px 0px;
+    }
+}
+
+
+@media screen and (max-width: 684px) {
+
+    nav {
+        background-color: rgba(50, 87, 67, 0.749);
+        padding: 5px 0px;
+        width: 100vw;
+        max-width:100%;
+    }
+
+    nav > .middle > .left > a > h1{
+        padding: 20px 100px 0 20px;
+        font-size: 36px;
+    }
+    
+    .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+        white-space: nowrap;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .middle {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav > .middle > .right > ul {
+        display: none;
+        font-size:20px;
+        float:left;
+        text-align: center;
+    }
+
+    .menuUL {
+        position: absolute;
+        z-index:1000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 111px;
+        background-color: rgba(50, 87, 67, 0.749);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        line-height: 30vh;
+    }
+
+    nav > .middle > .right > ul > p {
+        display:none;
+    }
+
+    nav > .middle > .right > ul > li{
+        display: block;
+        padding:0 2px 0 2px;
+        font-size:20px;
+    }
+    nav > .middle > .left > a {
+        text-decoration-style: double;
+        text-decoration-color: #7c7c7c;
+        color: white;
+        font-size: 28px; 
+    }
+
+    .threeX {
+        margin-top: -51px;
+        color: white;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        margin-right: 34px;
+        padding-top: 4px;
+    }
+
+    .threeLines {
+        margin-top: -61px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 416px) {
+
+    .threeLines {
+        margin-top: -92px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .menuUL {
+        position: absolute;
+        z-index:1000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 164px;
+        background-color: hsla(86, 27%, 27%, 0.90);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        line-height: 24vh;
+    }
+
+    .threeX {
+        margin-top: -76px;
+        color: white;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 432px) {
+
+    .threeLines {
+        margin-top: -92px;
+        color: white;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
