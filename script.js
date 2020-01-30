@@ -15,13 +15,13 @@ $(function(){
     $readLess.on('click', function(){
         $text1.hide();
         $text.show();
-        $overlay.css("background", "background: linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%);");
+        $overlay.css("background", "linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%)");
     })
 
     $overlay.mouseleave(function(){
         $text1.hide();
         $text.show();
-        $overlay.css("background", "background: linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%);");
+        $overlay.css("background", "linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%)");
     });
 
     var $chk = 1;

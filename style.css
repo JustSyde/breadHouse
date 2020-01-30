@@ -248,11 +248,11 @@ textarea {
 .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
     white-space: nowrap;
     color: white;
-    font-size: 14px;
+    font-size: 44px;
     position: absolute;
     text-align: left;
     top: 50%;
-    left: 20%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
@@ -295,18 +295,18 @@ textarea {
     margin: 0 auto;
     font-size: 40px;
     text-align: center;
-    background-color: #7e6533;
+    /*background-color: #7e6533;*/
     width: 100%;
 }
 
 .hold_text > .attention_text {
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 44px;
     text-align: center;
-    padding: 30px 0;
+    padding: 0px 0 30px 0;
     font-weight: bold;
     width: 90%;
-    color: rgb(255, 255, 255);
+    color: wheat;
 }
 
 .spacious {
