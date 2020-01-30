@@ -445,7 +445,7 @@ textarea {
     }
     
     nav {
-        background-color: rgba(50, 87, 67, 0.749);
+        background-color: hsla(41, 43%, 35%, 0.767);
         padding: 5px 100px;
         width: 100vw;
         max-width:100%;
@@ -485,7 +485,7 @@ textarea {
 @media screen and (max-width: 684px) {
 
     nav {
-        background-color: rgba(50, 87, 67, 0.749);
+        background-color: hsla(41, 43%, 35%, 0.767);
         padding: 5px 0px;
         width: 100vw;
         max-width:100%;
