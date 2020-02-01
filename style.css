@@ -660,6 +660,17 @@ span {
 }
 
 @media screen and (max-width: 1307px) {
+    .boutUsHold {
+        flex-direction: column;
+    }
+    .boutUs {
+        max-width: 70%;
+        margin:0 auto;
+        color: wheat;
+        line-height: 2;
+        padding: 1% 1%;
+    }
+
     nav {
         background-color: hsla(41, 43%, 35%, 0.767);
         border-radius: 0;
