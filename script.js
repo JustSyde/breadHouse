@@ -265,9 +265,16 @@ $(function(){
         });
     });
 
+    var $moreInfo = $('.readMoreInfo');
 
+    $moreInfo.click(function(){
+        if ($(this).siblings('.moreText').is(':hidden')){
+            $(this).siblings('.moreText').css('display', 'block');
+        }else{
+            $(this).siblings('.moreText').css('display', 'none');
+        }
 
-
+    });
 
 
 
