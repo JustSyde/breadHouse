@@ -118,27 +118,31 @@ nav > .middle > .right > ul > li > .current_page{
     background-color: rgb(68, 69, 82);
 }
 
-.bottomOfDaPage {
-    background-color: rgba(84, 99, 114, 0.750);
-    height: 100%;
-    width: 100vw;
-    max-width:100%;
-    margin: 0 auto;
-}
-
-.bottomOfDaPage > form {
-    color:white;
+form {
+    color:#ac8a48;
     padding:20px;
     width: 240px;
     border: solid 2px #1c1c1c;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
 }
 
-.bottomOfDaPage > form > input {
+.orderForm {
+    width: fit-content; 
+    height: 346px; 
+}
+
+form > input {
     padding:4px;
     display: block;
     border:solid 2px rgb(41, 41, 41);
     border-radius: 4px;
     width: 200px;
+    color: #ac8a48;
+    background: #1c1c1c;
 }
 
 .inph {
@@ -158,29 +162,34 @@ textarea {
     border:solid 2px rgb(41, 41, 41);
     border-radius: 4px;
     padding:4px;
+    color: #ac8a48;
+    background: #1c1c1c;
 }
 
-.bottomOfDaPage > form > button {
+form > button {
+    margin: auto;
     display: block;
-    padding:2px;
-    color: #1c1c1c;
+    padding:0px 8px;
     border:solid 1px rgb(41, 41, 41);
     border-radius: 3px;
-    margin-top:10px;
+    margin-top:20px;
+    font-size: 30px;
+    color: wheat;
+    background-color: rgb(75, 131, 39);
 
 }
 
-.bottomOfDaPage > form > label {
+form > label {
     padding-top: 6px;
     display: block;
     font-size: 12px;
 }
 
-.bottomOfDaPage > form > .indd {
+form > .indd {
     display: inline;
 }
 
-.bottomOfDaPage > form > .iddc {
+form > .iddc {
     display: inline;
     max-width: 10px;
 }
@@ -252,7 +261,7 @@ textarea {
 .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
     white-space: nowrap;
     color: white;
-    font-size: 33px;
+    font-size: 22px;
     position: absolute;
     text-align: left;
     top: 50%;
@@ -263,7 +272,7 @@ textarea {
 
 .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text1 {
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     padding: 20px 80px;
     line-height: 3;
 }
@@ -410,10 +419,6 @@ textarea {
     cursor: pointer;
 }
 
-.slider > img{
-    opacity: 0.9;
-}
-
 .slider > img:hover{
     cursor: pointer;
 }
@@ -473,7 +478,151 @@ footer > p {
     color: #fdcb67;
 }
 
+.shopText {
+    color: #141414;
+    padding: 361.375px 0;
+}
 
+.shopItems {
+    height: fit-content;
+    padding: 30px 0;
+}
+
+.wideBox {
+    width:100%;
+    display:flex;
+}
+
+.wideBox > .breadContainer {
+    width: 25%;
+    text-align: left;
+    margin: 30px auto 30px auto;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
+    padding: 20px;
+    filter: drop-shadow(0px 10px 6px black);
+}
+
+.wideBox > .breadContainer > h3 {
+    color: #ac8a48;
+    padding: 4px 0;
+}
+
+.addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 {
+    margin: 10px 0 0 10px;
+}
+
+.wideBox > .breadContainer > .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 > h2 {
+    width: fit-content;
+    padding: 4px 10px;
+    background: #1c1c1c;
+    border-radius: 5px;
+    color: #cfa859;
+    cursor: pointer;
+}
+
+.wideBox > .breadContainer > p {
+    font-size: 14px;
+    color: wheat;
+}
+
+.wideBox > .breadContainer > img{
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+    border: solid 2px #1c1c1c;
+}
+
+.shoppingArea {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.shoppingArea > .cartArea {
+    margin-right: 5%;
+    width: max-content;
+    border: solid 2px #1c1c1c;
+    padding: 20px;
+    height: 346px;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
+    width: 100%;
+}
+
+.items {
+    width: 100%;
+    background: #1c1c1c;
+    float:left;
+    border: solid 2px #1c1c1c;
+    padding: 4px;
+    display: flex;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+.shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread{
+    color: #1c1c1c;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-right: 30vw;
+    color: #cfa859;
+}
+
+.leitHalf, .raitHalf {
+    width: 50%;
+}
+
+.numberz {
+    float: right;
+    
+}
+
+span {
+    cursor:pointer; 
+}
+
+.minus, .plus {
+	width:20px;
+	height:20px;
+	color: #cfa859;
+    background-color: #242424;
+	border-radius:4px;
+	border:1px solid #cfa859;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+    
+.numberz > input {
+	height:34px;
+    width: 100px;
+    text-align: center;
+    color: #cfa859;
+    background-color: #242424;
+    font-size: 26px;
+	border:1px solid #cfa859;
+	border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.removeItem {
+    padding: 4px 4px 0 14px;
+}
+.removeItem > p{
+    color: #cfa859;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1307px) {
     nav {
@@ -488,6 +637,31 @@ footer > p {
         margin: auto;
         width: 100%;
         padding-bottom: 4px;
+    }
+
+    .wideBox  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .wideBox > .breadContainer {
+        width: 90%;
+        text-align: left;
+        margin: 30px auto 30px auto;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        padding: 20px;
+        filter: drop-shadow(0px 10px 6px black);
+    }
+
+    .shopItems {
+        width: 100%;
+        height: fit-content;
+        padding: 30px 0;
+        display: flex;
     }
 }
 
@@ -592,9 +766,239 @@ footer > p {
 
     }
 
-
+    .shoppingArea {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        display: flex;
+    }
 
 }
+
+@media screen and (max-width: 310px) {.fix {margin: 40px 0 0 0;}}
+
+@media screen and (max-width: 1007px) {
+
+    .shopText {
+        color: #141414;
+        padding: 36% 0;
+    }
+
+    .wideBox  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .wideBox > .breadContainer {
+        width: 90%;
+        text-align: left;
+        margin: 30px auto 30px auto;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        padding: 20px;
+        filter: drop-shadow(0px 10px 6px black);
+    }
+
+    .shopItems {
+        width: 100%;
+        height: fit-content;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shoppingArea {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orderForm {
+        width: 100%; 
+        height: 346px; 
+        margin: 20px 0;
+    }
+    
+    form {
+        width: 60%;
+        margin: 10px auto 0 auto;
+    }
+    
+    form > input {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        width: 100%;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    .inph {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(108, 158, 204);
+        border-radius: 4px;
+    }
+    
+    textarea {
+        resize: none;
+        min-width: 100%;
+        min-height: 100px;
+        max-width: 100%;
+        max-height: 100px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        padding:4px;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    form > button {
+        margin: auto;
+        display: block;
+        padding:0px 8px;
+        border:solid 1px rgb(41, 41, 41);
+        border-radius: 3px;
+        margin-top:20px;
+        font-size: 30px;
+        color: wheat;
+        background-color: rgb(75, 131, 39);
+    
+    }
+    
+    form > label {
+        padding-top: 6px;
+        display: block;
+        font-size: 12px;
+    }
+    
+    form > .indd {
+        display: inline;
+    }
+    
+    form > .iddc {
+        display: inline;
+        max-width: 10px;
+    }
+
+}
+@media screen and (max-width: 476px) {
+    .items {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .raitHalf, .leitHalf {
+        width: fit-content;
+    }
+
+    .shoppingArea > .cartArea {
+        margin-right: 5%;
+        width: max-content;
+        border: solid 2px #1c1c1c;
+        padding: 20px;
+        min-height: 260px ;
+        height: fit-content;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        width: 100%;
+    }
+
+    .shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        margin-right: 0;
+        color: #cfa859;
+    }
+
+    .removeItem {
+        padding: 4px 4px 0;
+    }
+
+    .orderForm {
+        width: 100%; 
+        height: 346px; 
+        margin: 20px 0;
+    }
+    
+    form {
+        width: 90%;
+        margin: 10px auto 0 auto;
+    }
+    
+    form > input {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        width: 100%;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    .inph {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(108, 158, 204);
+        border-radius: 4px;
+    }
+    
+    textarea {
+        resize: none;
+        min-width: 100%;
+        min-height: 100px;
+        max-width: 100%;
+        max-height: 100px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        padding:4px;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    form > button {
+        margin: auto;
+        display: block;
+        padding:0px 8px;
+        border:solid 1px rgb(41, 41, 41);
+        border-radius: 3px;
+        margin-top:20px;
+        font-size: 30px;
+        color: wheat;
+        background-color: rgb(75, 131, 39);
+    
+    }
+    
+    form > label {
+        padding-top: 6px;
+        display: block;
+        font-size: 12px;
+    }
+    
+    form > .indd {
+        display: inline;
+    }
+    
+    form > .iddc {
+        display: inline;
+        max-width: 10px;
+    }
+}
+
 
 @media screen and (max-width: 684px) {
 

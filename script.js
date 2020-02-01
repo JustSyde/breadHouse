@@ -85,7 +85,7 @@ $(function(){
         $('html').removeClass('scrollNo');
         $('.threeX').css('display', 'none');
         if ($screenWidth<1100){
-            $text.css("font-size", $fontSize + "px");
+            $text.css("font-size", $fontSize/0.9 + "px");
             $text1.css("font-size", $fontSize+$fontSize/2 + "px");
             $press1.css("font-size", $fontSize+$fontSize/2 + "px");
             $press1.css("width", $fontSize*12 + "px")
@@ -215,4 +215,61 @@ $(function(){
             console.log($m--);
         }
     });
+
+    $('.addToCart1').click(function(){
+        $("#bd1").css('display', 'flex');  
+        
+    });
+    $('.addToCart2').click(function(){
+        $("#bd2").css('display', 'flex');  
+        
+    });
+    $('.addToCart3').click(function(){
+        $("#bd3").css('display', 'flex');  
+        
+
+    });
+    $('.addToCart4').click(function(){
+        $("#bd4").css('display', 'flex');  
+        
+        
+    });
+    $('.addToCart5').click(function(){
+        $("#bd5").css('display', 'flex');  
+        
+    });
+    $('.addToCart6').click(function(){
+        $("#bd6").css('display', 'flex');  
+
+    });
+
+    $('.removeItem').click(function(){
+        $(this).parent().css('display', 'none');  
+    });
+
+    
+    $(document).ready(function() {
+        $('.minus').click(function () {
+            var $input = $(this).parent().find('input');
+            var count = parseInt($input.val()) - 1;
+            count = count < 1 ? 1 : count;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+        $('.plus').click(function () {
+            var $input = $(this).parent().find('input');
+            $input.val(parseInt($input.val()) + 1);
+            $input.change();
+            return false;
+        });
+    });
+
+
+
+
+
+
+
+
 });
