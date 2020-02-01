@@ -547,6 +547,7 @@ footer > p {
 
 .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 {
     margin: 10px 0 0 10px;
+    cursor: pointer;
 }
 
 .wideBox > .breadContainer > .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 > h2 {
