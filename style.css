@@ -480,7 +480,7 @@ footer > p {
 
 .shopText {
     color: #141414;
-    padding: 361.375px 0;
+    padding: 10% 0;
 }
 
 .shopItems {
@@ -778,11 +778,6 @@ span {
 @media screen and (max-width: 310px) {.fix {margin: 40px 0 0 0;}}
 
 @media screen and (max-width: 1007px) {
-
-    .shopText {
-        color: #141414;
-        padding: 36% 0;
-    }
 
     .wideBox  {
         display:flex;
