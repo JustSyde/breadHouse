@@ -45,7 +45,6 @@ $(function(){
     var $numberOfImages = 6;
     var $screenWidth = $('.screenWidth');
     var $fontSize = $screenWidth / 50;
-    var $attentionText = $('.attention_text');
 
     $slides.css("margin-left", "0px");
     $counter = 1;

@@ -444,7 +444,10 @@ footer > p {
 }
 
 .shopText {
-    color: #141414;
+    background: linear-gradient(0deg, rgba(0,0,0,0.3029586834733894) 0%, rgba(0,0,0,0.30015756302521013) 75%, rgba(0,0,0,0) 100%);
+    color: wheat;
+    font-weight: 800;
+    font-size: 40px;
     padding: 10% 0;
 }
 
