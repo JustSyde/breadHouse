@@ -6,9 +6,14 @@
 
 }
 
-.readMoreInfo, .readLessInfo {
+.textWidth {
+    width: 80%;
+}
+
+.readMoreInfo {
+    color: #cfa859;
     cursor: pointer;
-    color: #fdcb67;
+    font-size: 20px;
 }
 
 .moreText {
@@ -38,14 +43,8 @@
     padding: 1% 1%;
 }
 
-
-
 .screenWidth {
     max-width: 1100px;
-}
-
-.textWidth {
-    width: 80%;
 }
 
 .headerImage {
@@ -54,7 +53,6 @@
 }
 
 body > .slideHolder {
-    /*background-color: rgba(80, 52, 0, 0.5);*/
     height: 100%;
 }
 
@@ -133,7 +131,7 @@ nav > .middle > .right > ul > li > a:hover{
     border-radius: 6px;
 }
 
-nav > .middle > .right > ul > li > .current_page{
+nav > .middle > .right > ul > li > .currentPage{
     text-decoration: none;
     color: #fdcb67;
     font-weight: bold;
@@ -141,15 +139,6 @@ nav > .middle > .right > ul > li > .current_page{
     background-color: hsl(0, 0%, 19%);
     border-radius: 6px;
     font-weight: 400;
-}
-
-.darkmode > img {
-    max-width: 18px;
-    margin-top:-6px;
-}
-
-.night_mode {
-    background-color: rgb(68, 69, 82);
 }
 
 form {
@@ -177,13 +166,6 @@ form > input {
     width: 200px;
     color: #ac8a48;
     background: #1c1c1c;
-}
-
-.inph {
-    padding:4px;
-    display: block;
-    border:solid 2px rgb(108, 158, 204);
-    border-radius: 4px;
 }
 
 textarea {
@@ -219,23 +201,9 @@ form > label {
     font-size: 12px;
 }
 
-form > .indd {
-    display: inline;
-}
-
-form > .iddc {
-    display: inline;
-    max-width: 10px;
-}
-
-.disnon {
-    display: none;
-}
-
 .divisionLine {
     width: 100%;
     height: 100px;
-    /*background-color: #bb964b;*/
     border-radius: 40px 40px 0 0;
 }
 
@@ -295,7 +263,7 @@ form > .iddc {
 .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
     white-space: nowrap;
     color: white;
-    font-size: 22px;
+    font-size: 1.2vw;
     position: absolute;
     text-align: left;
     top: 50%;
@@ -338,60 +306,23 @@ form > .iddc {
     margin-bottom:-14px!important;
     overflow-x:scroll;
 }
-.hold_text {
+
+.textHolder {
     margin: 0 auto;
     font-size: 40px;
     text-align: center;
-    /*background-color: #7e6533;*/
     width: 100%;
 }
 
-.hold_text > .attention_text {
+.textHolder > .attentionText {
     white-space: nowrap;
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 2.5vw;
     text-align: center;
     padding: 0px 0 30px 0;
     font-weight: bold;
     width: 90%;
     color: #ac8a48;
-}
-
-.spacious {
-    text-align: center;
-    width: 100%;
-    background-color: #46739150;
-    padding: 400px 0;
-}
-
-.spacious > p {
-    margin: 0 auto;
-    font-size: 36px;
-    color: white;
-    max-width: 1100px;
-}
-
-.press:hover{
-    cursor: pointer;
-}
-
-.press {
-    background-color: rgba(0, 65, 186, 0.329);
-    border-radius: 4px;
-    width: 124px;
-    padding:4px;
-}
-
-.press1 {
-    font-size: 24px;
-    background-color: rgba(17, 75, 0, 0.76);
-    border-radius: 4px;
-    width: 140px;
-    margin: 0 auto;
-}
-
-.press1:hover{
-    cursor: pointer;
 }
 
 .slider {
@@ -457,7 +388,7 @@ form > .iddc {
     cursor: pointer;
 }
 
-.nib {
+.disNoneToBlock {
     display:none;
 }
 
@@ -472,11 +403,11 @@ form > .iddc {
     overflow: hidden;
 }
 
-.lll {
+.marginCorrectionOne {
     margin-top: 10%;
 }
 
-.sss {
+.marginCorrectionTwo {
     margin-top: -10%;
 }
 
@@ -718,12 +649,25 @@ span {
 }
 
 @media screen and (max-width: 1120px) {
+
+    .textHolder > .attentionText {
+        white-space: nowrap;
+        margin: 0 auto;
+        font-size: 4vw;
+        text-align: center;
+        padding: 0px 0 30px 0;
+        font-weight: bold;
+        width: 90%;
+        color: #ac8a48;
+    }
+
     .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
         white-space: nowrap;
         color: white;
         position: absolute;
+        font-size: 1.9vw;
         top: 50%;
-        left: 45%;
+        left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
@@ -736,7 +680,7 @@ span {
         max-width: calc(100vw - 22.22%);
     }
 
-    .nib {
+    .disNoneToBlock {
         display:block;
     }
     
@@ -797,19 +741,18 @@ span {
         float: left;
     }
 
-    .lll {
+    .marginCorrectionOne {
         margin-top: 0;
     }
 
-    .sss {
+    .marginCorrectionTwo {
         margin-top: 0;
     }
 
     .displayHolderOne {
+        width: 100%;
         display: flex;
         flex-direction: column;
-        width: 100%;
-
     }
 
     .shoppingArea {
@@ -880,13 +823,6 @@ span {
         background: #1c1c1c;
     }
     
-    .inph {
-        padding:4px;
-        display: block;
-        border:solid 2px rgb(108, 158, 204);
-        border-radius: 4px;
-    }
-    
     textarea {
         resize: none;
         min-width: 100%;
@@ -918,15 +854,6 @@ span {
         padding-top: 6px;
         display: block;
         font-size: 12px;
-    }
-    
-    form > .indd {
-        display: inline;
-    }
-    
-    form > .iddc {
-        display: inline;
-        max-width: 10px;
     }
 
 }
@@ -990,13 +917,6 @@ span {
         background: #1c1c1c;
     }
     
-    .inph {
-        padding:4px;
-        display: block;
-        border:solid 2px rgb(108, 158, 204);
-        border-radius: 4px;
-    }
-    
     textarea {
         resize: none;
         min-width: 100%;
@@ -1028,15 +948,6 @@ span {
         padding-top: 6px;
         display: block;
         font-size: 12px;
-    }
-    
-    form > .indd {
-        display: inline;
-    }
-    
-    form > .iddc {
-        display: inline;
-        max-width: 10px;
     }
 }
 

@@ -1,29 +1,5 @@
 $(function(){
 
-    var $readMore = $('.press');
-    var $readLess = $('.press1');
-    var $text = $('.text');
-    var $text1 = $('.text1');
-    var $overlay = $('.overlay')
-
-    $readMore.on('click', function(){
-        $text.hide();
-        $text1.show();
-        $overlay.css("background", "rgba(0, 107, 62, 0.75)");
-    })
-
-    $readLess.on('click', function(){
-        $text1.hide();
-        $text.show();
-        $overlay.css("background", "linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%)");
-    })
-
-    $overlay.mouseleave(function(){
-        $text1.hide();
-        $text.show();
-        $overlay.css("background", "linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%)");
-    });
-
     var $chk = 1;
 
     $('.threeX').on('click', function(){
@@ -70,7 +46,6 @@ $(function(){
     var $screenWidth = $('.screenWidth');
     var $fontSize = $screenWidth / 50;
     var $attentionText = $('.attention_text');
-    var $press1 = $('.press1');
 
     $slides.css("margin-left", "0px");
     $counter = 1;
@@ -85,15 +60,7 @@ $(function(){
         $('html').removeClass('scrollNo');
         $('.threeX').css('display', 'none');
         if ($screenWidth<1100){
-            $text.css("font-size", $fontSize/0.9 + "px");
-            $text1.css("font-size", $fontSize+$fontSize/2 + "px");
-            $press1.css("font-size", $fontSize+$fontSize/2 + "px");
-            $press1.css("width", $fontSize*12 + "px")
             $('.press').css("width", $fontSize*6 + "px");
-            $attentionText.css("font-size", $fontSize*1.81 + "px");
-            $attentionText.css("max-width", (($fontSize*50)/1.22)  + "px");
-            $attentionText.css("padding-top", (($fontSize*50)/18.33)/2  + "px");
-            $attentionText.css("padding-bottom", (($fontSize*50)/18.33)/2  + "px");
             $('.hold_text').css("max-height", (($fontSize*50)/3.28)  + "px");
         }
 
