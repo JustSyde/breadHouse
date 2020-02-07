@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157960823-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-157960823-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,192 +17,150 @@
     <link rel='icon' href='faviconBread.ico' type='image/x-icon/' >
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <meta name="description" content="place_that_sells_bread_home_page">
 </head>
 <body>
 
-    <div class="headerImage">
-    <div class="disNoneToBlock"></div>
-    <nav>
-        <section class="middle">
-            <section class="left">
-                <a href = "index.html"><h1>Bread House</h1></a>
+    <header class="headerBackgroundImage">
+        <div class="disNoneToBlock"></div>
+        <div class="gradient">
+        <nav>
+            <section class="navContentBox">
+                <section class="compName">
+                    <a href = "index.html"><h1>Bread House</h1></a>
+                </section>
+                <div class="clear"></div>
+                
+                <section class="navBar">
+                    <div class="closeMenu">
+                        <p>&#10006;</p>
+                    </div>
+                    <div class="menuButton">
+                        <p>-</p>
+                        <p>-</p>
+                        <p>-</p>
+                    </div>
+                    <ul class="navBarList">
+                        <li><a class="currentPage" href="index.html">Home</a></li><p>|</p>
+                        <li><a href="shop.html">Shop</a></li><p>|</p>
+                        <li><a href="aaboutUs.html">About Us</a></li>
+                    </ul>
+                </section>
+                <div class="clear"></div>
             </section>
-            <div class="clear"></div>
-            
-            <section class="right">
-                <div class="threeX" style="display: none;">
-                    <p>&#10006;</p>
-                </div>
-                <div class="threeLines">
-                    <p>-</p>
-                    <p>-</p>
-                    <p>-</p>
-                </div>
-                <ul class="hmhm">
-                    <li><a class="currentPage" href="index.html">House</a></li><p>|</p>
-                    <li><a href="pageOne.html">Shop</a></li><p>|</p>
-                    <li><a href="pageTwo.html">About Us</a></li>
-                </ul>
-            </section>
-            <div class="clear"></div>
+        </nav>
+        <section class="sliderContainer">
+            <img alt="bread" class="leftArrow" src="img/arrowLeft.png">
+            <img alt="bread" class="rightArrow" src="img/arrowRight.png">
+            <div class="leftHalf"></div>
+            <div class="rightHalf"></div>
+            <ul class="slides">
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafs.png"></li>
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsOne.jpg"></li>
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsTwo.jpg"></li>
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsThree.jpg"></li>
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsFour.jpg"></li>
+                <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsFive.jpg"></li>
+            </ul>
         </section>
-    </nav>
 
-    <section class="slider">
-        <img alt="bread" class="leftarr" src="img/arrowLeft.png">
-        <img alt="bread" class="rightarr" src="img/arrowRight.png">
-        <div class="leftHalf"></div>
-        <div class="rightHalf"></div>
-        <ul class="slides">
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafs.png"></li>
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsOne.jpg"></li>
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsTwo.jpg"></li>
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsThree.jpg"></li>
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsFour.jpg"></li>
-            <li class="slide"><img alt="bread" class="screenWidth" src="img/breadLoafsFive.jpg"></li>
-        </ul>
-    </section>
-
-   <div class="divisionLine"></div>
-</div>
-<div class="social">
-    <ul class="socialUL">
-        <li><a target="_blank" href="https://www.facebook.com/"><img alt="bread" src="img/face.png"></a></li>
-        <li><a target="_blank" href="https://www.instagram.com/"><img alt="bread" src="img/insta.png"></a></li>
-        <li><a target="_blank" href="https://twitter.com/home"><img alt="bread" src="img/twitter.png"></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/"><img alt="bread" src="img/in.png"></a></li>
-    </ul>
-</div>
-<div class="backgroundd">
-    <section class="slideHolder">
-
-        <div class="displayHolderOne">
+        <div class="divisionLine"></div>
+        </div>
+    </header>
 
 
-            <div class="innerHolder">
-                <div class="textHolder">
-                    <p class="attentionText">~We Make The Best Bread~</p>
-                </div>
-                <div class="displayer">
-                    <img alt="bread" style="width:100%;" src="img/breadLoafs.png"><div class="overlay ">
-                        <div class="text textWidth">Made Only From The Finest Grains,<br>
-                            By Our Best Bakers,<br>
-                            Specially For You.
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-
-            <div class="innerHolder marginCorrectionOne">
-                <div class="textHolder screenWidth">
-                    <p class="attentionText">~Make Your Choice~</p>
-                </div>
-                <div class="displayer">
-                    <img alt="bread" style="width:100%;" src="img/breadLoafsOne.jpg">
-                    <div class="overlay">
-                        <div class="text textWidth">Vegan, Gluten Free,<br>Classic White Bread,<br>
-                            Rye Bread, Toast,<br>Soft Bread
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <main class="mainBackground">
+        <div class="socialOuterContainer">
+            <ul class="socialInnerContainer">
+                <li><a target="_blank" href="https://www.facebook.com/"><img alt="bread" src="img/face.png"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/"><img alt="bread" src="img/insta.png"></a></li>
+                <li><a target="_blank" href="https://twitter.com/home"><img alt="bread" src="img/twitter.png"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/"><img alt="bread" src="img/in.png"></a></li>
+            </ul>
         </div>
 
-        <div class="displayHolderOne marginCorrectionTwo">
+        <section class="overlayImagesOuterContainer">
+
+            <div class="overlayImagesInnerContainer">
 
 
-            <div class="innerHolder">
-                <div class="textHolder">
-                    <p class="attentionText">~Delivery~</p>
-                </div>
-                <div class="displayer">
-                    <img alt="bread" style="width:100%;" src="img/breadLoafsTwo.jpg"><div class="overlay ">
-                        <div class="text textWidth">We Deliver Any Time Of The Day,<br>
-                            Every Day Of The Week.<br>
-                            
+                <div class="overlayImagesInnermostContainer">
+                    <div class="textHolder">
+                        <p class="attentionText">~We Make The Best Bread~</p>
+                    </div>
+                    <div class="overlayImage">
+                        <img alt="bread" src="img/breadLoafs.png"><div class="overlay ">
+                            <div class="text textWidth">Made Only From The Finest Grains,<br>
+                                By Our Best Bakers,<br>
+                                For You.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-
-            <div class="innerHolder marginCorrectionOne">
-                <div class="textHolder screenWidth">
-                    <p class="attentionText">~Order When You Want~</p>
-                </div>
-                <div class="displayer">
-                    <img alt="bread" style="width:100%;" src="img/breadLoafsThree.jpg">
-                    <div class="overlay">
-                        <div class="text textWidth">Day Or Night,<br>
-                            Rain Or Snow,<br>
-                            We Will Deliver,<br>
-                            You Can Order <a target="_blank" href="pageOne.html" style="color: wheat; text-decoration: none;">Here</a>.
-                            
+                <div class="overlayImagesInnermostContainer marginCorrectionOne">
+                    <div class="textHolder screenWidth">
+                        <p class="attentionText">~Make Your Choice~</p>
+                    </div>
+                    <div class="overlayImage">
+                        <img alt="bread" src="img/breadLoafsOne.jpg">
+                        <div class="overlay">
+                            <div class="text textWidth">Vegan, Gluten Free,<br>Classic White Bread,<br>
+                                Rye Bread, Toast,<br>Soft Bread.
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
-        </div>
-        
-    </section>
-</div>    
+
+            <div class="overlayImagesInnerContainer marginCorrectionTwo">
 
 
+                <div class="overlayImagesInnermostContainer">
+                    <div class="textHolder">
+                        <p class="attentionText">~Delivery~</p>
+                    </div>
+                    <div class="overlayImage">
+                        <img alt="bread" src="img/breadLoafsTwo.jpg"><div class="overlay ">
+                            <div class="text textWidth">We Deliver Any Time Of The Day,<br>
+                                Every Day Of The Week.<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overlayImagesInnermostContainer marginCorrectionOne">
+                    <div class="textHolder screenWidth">
+                        <p class="attentionText">~Order When You Want~</p>
+                    </div>
+                    <div class="overlayImage">
+                        <img alt="bread" src="img/breadLoafsThree.jpg">
+                        <div class="overlay">
+                            <div class="text textWidth">Day Or Night,<br>
+                                Rain Or Snow,<br>
+                                We Will Deliver,<br>
+                                You Can Order <a class="linkToOrder" target="_blank" href="shop.html">Here</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
+            </div>
+            
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-        
-        <div class="clear"></div>
+    </main>    
+    <div class="clear"></div>
 
     <footer><p>Made By Baker &#9400; 2020</p></footer>
-
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous">
-    </script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="jquery-3.4.1.min.js"><\/script>');</script>
-
     <script src="script.js"></script>
+
 </body>
 </html>

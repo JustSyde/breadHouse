@@ -2,38 +2,38 @@ $(function(){
 
     var $chk = 1;
 
-    $('.threeX').on('click', function(){
+    $('.closeMenu').on('click', function(){
         if ($chk == 1){
-            $('.hmhm').addClass('menuUL');
-            $('.hmhm').css('display', 'block');
+            $('.navBarList').addClass('menuUL');
+            $('.navBarList').css('display', 'block');
             $('html').addClass('scrollNo');
-            $('.threeLines').css('display', 'none');
-            $('.threeX').css('display', 'block');
+            $('.menuButton').css('display', 'none');
+            $('.closeMenu').css('display', 'block');
             $chk=2;
         }else{
-            $('.hmhm').removeClass('menuUL');
-            $('.hmhm').css('display', 'none');
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'none');
             $('html').removeClass('scrollNo');
-            $('.threeLines').css('display', 'block');
-            $('.threeX').css('display', 'none');
+            $('.menuButton').css('display', 'block');
+            $('.closeMenu').css('display', 'none');
             $chk=1;
         }
     })
 
-    $('.threeLines').on('click', function(){
+    $('.menuButton').on('click', function(){
         if ($chk == 1){
-            $('.hmhm').addClass('menuUL');
-            $('.hmhm').css('display', 'block');
+            $('.navBarList').addClass('menuUL');
+            $('.navBarList').css('display', 'block');
             $('html').addClass('scrollNo');
-            $('.threeLines').css('display', 'none');
-            $('.threeX').css('display', 'block');
+            $('.menuButton').css('display', 'none');
+            $('.closeMenu').css('display', 'block');
             $chk=2;
         }else{
-            $('.hmhm').removeClass('menuUL');
-            $('.hmhm').css('display', 'none');
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'none');
             $('html').removeClass('scrollNo');
-            $('.threeLines').css('display', 'block');
-            $('.threeX').css('display', 'none');
+            $('.menuButton').css('display', 'block');
+            $('.closeMenu').css('display', 'none');
             $chk=1;
         }
     })
@@ -57,27 +57,27 @@ $(function(){
         $fontSize = $screenWidth / 50;
         $chk=1;
         $('html').removeClass('scrollNo');
-        $('.threeX').css('display', 'none');
+        $('.closeMenu').css('display', 'none');
         if ($screenWidth<1100){
             $('.press').css("width", $fontSize*6 + "px");
             $('.hold_text').css("max-height", (($fontSize*50)/3.28)  + "px");
         }
 
         if ($screenWidth>=685){
-            $('.hmhm').removeClass('menuUL');
-            $('.hmhm').css('display', 'flex');
-            $('.threeLines').css('display', 'none');
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'flex');
+            $('.menuButton').css('display', 'none');
             $chk=1;
         }
 
         if ($screenWidth<=684){
-            $('.hmhm').css('display', 'none');
-            $('.threeLines').css('display', 'block');
+            $('.navBarList').css('display', 'none');
+            $('.menuButton').css('display', 'block');
         }
 
         if ($screenWidth<=390){
-            $('.hmhm').css('display', 'none');
-            $('.threeLines').css('display', 'block');
+            $('.navBarList').css('display', 'none');
+            $('.menuButton').css('display', 'block');
         }
         
     });
@@ -85,8 +85,6 @@ $(function(){
     $(window).trigger('resize');
 
     $right.on('click', function(){
-        console.log('Counter:       ' + $counter);
-        console.log('Screen Width:  ' + $screenWidth);
         if ($counter==$numberOfImages){
             $slides.css("margin-left", "0px");
             $counter = 1;
@@ -100,8 +98,6 @@ $(function(){
        });
        
     $left.on('click', function(){
-        console.log('Counter:       ' + $counter);
-        console.log('Screen Width:  ' + $screenWidth);
         if ($counter==1){
             if ($screenWidth >= 1100){
                 $screenWidth = 1100;
@@ -118,8 +114,6 @@ $(function(){
     });
 
     var $sliderLoop = setInterval(function(){
-        console.log('Counter:       ' + $counter);
-        console.log('Screen Width:  ' + $screenWidth);
         if ($counter==$numberOfImages){
             $slides.css("margin-left", "0px");
             $counter = 1;
@@ -139,11 +133,8 @@ $(function(){
     $right.hover(function(){
     if ($m==1){
         clearInterval($sliderLoop);
-        console.log($m++);
     }else{
         $sliderLoop = setInterval(function(){
-            console.log('Counter:       ' + $counter);
-            console.log('Screen Width:  ' + $screenWidth);
             if ($counter==$numberOfImages){
                 $slides.css("margin-left", "0px");
                 $counter = 1;
@@ -155,18 +146,14 @@ $(function(){
                 $counter++;
             }
         }, 3000);
-        console.log($m--);
     }
     });
 
     $left.hover(function(){
         if ($m==1){
             clearInterval($sliderLoop);
-            console.log($m++);
         }else{
             $sliderLoop = setInterval(function(){
-                console.log('Counter:       ' + $counter);
-                console.log('Screen Width:  ' + $screenWidth);
                 if ($counter==$numberOfImages){
                     $slides.css("margin-left", "0px");
                     $counter = 1;
@@ -178,7 +165,7 @@ $(function(){
                     $counter++;
                 }
             }, 3000);
-            console.log($m--);
+
         }
     });
 
@@ -235,14 +222,12 @@ $(function(){
 
     $moreInfo.click(function(){
         if ($(this).siblings('.moreText').is(':hidden')){
-            $(this).siblings('.moreText').css('display', 'block');
+            $(this).text('Read Less');
+            $(this).siblings('.moreText').slideDown(500);
         }else{
-            $(this).siblings('.moreText').css('display', 'none');
+            $(this).text('Read More');
+            $(this).siblings('.moreText').slideUp(500);
         }
-
     });
-
-
-
 
 });

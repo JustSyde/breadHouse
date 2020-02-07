@@ -6,6 +6,23 @@
 
 }
 
+.loremTitle {
+    color: #fdcb67;
+    margin-bottom: 10%;
+}
+
+#bd1 {display: none;}
+#bd2 {display: none;}
+#bd3 {display: none;}
+#bd4 {display: none;}
+#bd5 {display: none;}
+#bd6 {display: none;}
+
+.linkToOrder {
+    color: wheat;
+    text-decoration: none;
+}
+
 .textWidth {
     width: 80%;
 }
@@ -20,7 +37,7 @@
     display: none;
 }
 
-.boutUsHold {
+.aboutUsContainer {
     display: flex;
     width: 100%;
     background-image: url('img/repeatingBarley.jpg');
@@ -35,7 +52,7 @@
     padding: 1% 1%;
 }
 
-.boutUs {
+.aboutUs {
     max-width: 30%;
     margin:0 auto;
     color: wheat;
@@ -47,17 +64,23 @@
     max-width: 1100px;
 }
 
-.headerImage {
+.headerBackgroundImage {
+    text-align: center;
     width: 100%;
     background-image: url("https://images.wallpaperscraft.com/image/wheat_spikelets_field_144604_1920x1080.jpg");
 }
 
-body > .slideHolder {
+body > .overlayImagesOuterContainer {
     height: 100%;
 }
 
 .clear {
     clear: both;
+}
+
+.gradient {
+    height:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.3029586834733894) 0%, rgba(0,0,0,0.30015756302521013) 75%, rgba(0,0,0,0) 90%);
 }
 
 nav {
@@ -73,57 +96,57 @@ nav {
     
 }
 
-.middle {
+.navContentBox {
     margin: auto;
     width: 1100px;
 }
 
-nav > .middle > .left {
+nav > .navContentBox > .compName {
     display: flex;
 }
 
-nav > .middle > .left > a > img {
+nav > .navContentBox > .compName > a > img {
     width: 100px;
     float:left;
 }
 
-nav > .middle > .left > a {
+nav > .navContentBox > .compName > a {
     text-decoration-style: double;
     text-decoration-color: #fdcb67;
     color: #141414;
     font-size: 36px; 
 }
 
-nav > .middle > .left > a > h1{
+nav > .navContentBox > .compName > a > h1{
     margin-bottom: 14px;
     padding-top: 14px;
 }
 
-nav > .middle > .right {
+nav > .navContentBox > .navBar {
     float:right;
     margin-top: -58px;
     padding: 5px 0px 4.8px 0px;
 }
 
-nav > .middle > .right > ul {
+nav > .navContentBox > .navBar > ul {
     display:flex;
     font-size:20px;
 }
 
-nav > .middle > .right > ul > li{
+nav > .navContentBox > .navBar > ul > li{
     display:inline;
 	padding:0 10px 0 10px;
 	font-size:20px;
     
 }
 
-nav > .middle > .right > ul > li > a{
+nav > .navContentBox > .navBar > ul > li > a{
     text-decoration: none;
     color: #141414;
     padding: 5px;
 }
 
-nav > .middle > .right > ul > li > a:hover{
+nav > .navContentBox > .navBar > ul > li > a:hover{
     text-decoration: none;
     color: white;
     background-color: #1c1c1c;
@@ -131,7 +154,7 @@ nav > .middle > .right > ul > li > a:hover{
     border-radius: 6px;
 }
 
-nav > .middle > .right > ul > li > .currentPage{
+nav > .navContentBox > .navBar > ul > li > .currentPage{
     text-decoration: none;
     color: #fdcb67;
     font-weight: bold;
@@ -207,11 +230,16 @@ form > label {
     border-radius: 40px 40px 0 0;
 }
 
-.slideHolder {
+.overlayImagesOuterContainer {
     padding: 40px 0;
 }
 
-.backgroundd {
+.addPadding {
+    padding: 10%; 
+}
+
+.mainBackground {
+    text-align: center;
     background-image: url("img/repeatingBarley2.jpg");
     background-size: 50%;
     background-color: rgb(51, 34, 23);
@@ -219,17 +247,17 @@ form > label {
     background-position-x: 7%;
 }
 
-.displayHolderOne {
+.overlayImagesInnerContainer {
     width: 100%;
     display: flex;
 }
 
-.innerHolder {
+.overlayImagesInnermostContainer {
     width: 50%;
     padding: 4%;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage {
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -237,12 +265,12 @@ form > label {
     
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer > img {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > img {
     width: 100%;
     display: block;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -254,13 +282,13 @@ form > label {
     transition: .5s ease;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay {
     width: 100%;
     overflow: auto;
     -ms-overflow-style: none;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
     white-space: nowrap;
     color: white;
     font-size: 1.2vw;
@@ -272,24 +300,24 @@ form > label {
     -ms-transform: translate(-50%, -50%);
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text1 {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text1 {
     color: white;
     font-size: 24px;
     padding: 20px 80px;
     line-height: 3;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay {
     width: 100%;
     overflow: auto;
     -ms-overflow-style: none;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > .overlay::-webkit-scrollbar {
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay::-webkit-scrollbar {
     display: none;
 }
 
-.slideHolder > .displayHolderOne > .innerHolder > .displayer:hover > img{
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > img{
     height: 100%;
 }
 
@@ -325,7 +353,7 @@ form > label {
     color: #ac8a48;
 }
 
-.slider {
+.sliderContainer {
     margin: 100px auto 0 auto;
     max-width: 1100px;
     overflow: hidden;
@@ -343,7 +371,7 @@ form > label {
     transition: .5s ease;
 }
 
-.slider > .slides > .slide > img {
+.sliderContainer > .slides > .slide > img {
     margin: 0;
     float:left;
     list-style-type: none;
@@ -351,7 +379,7 @@ form > label {
 
 
 
-.slider > .rightarr{
+.sliderContainer > .rightArrow{
     position: absolute;
     top: 50%;
     right: -24px;
@@ -360,7 +388,7 @@ form > label {
     border-radius: 20px 0 0 20px;
 }
 
-.slider > .leftarr{
+.sliderContainer > .leftArrow{
     position: absolute;
     top: 50%;
     left: 20px;
@@ -369,7 +397,7 @@ form > label {
     border-radius: 0 20px 20px 0;
 }
 
-.slider > .rightHalf{
+.sliderContainer > .rightHalf{
     width: 50%;
     height: 100%;
     position: absolute;
@@ -377,14 +405,14 @@ form > label {
     cursor: pointer;
 }
 
-.slider > .leftHalf{
+.sliderContainer > .leftHalf{
     width: 50%;
     height: 100%;
     position: absolute;
     cursor: pointer;
 }
 
-.slider > img:hover{
+.sliderContainer > img:hover{
     cursor: pointer;
 }
 
@@ -392,7 +420,7 @@ form > label {
     display:none;
 }
 
-.threeLines {
+.menuButton {
     color: white;
     font-size: 60px;
     line-height: 8px;
@@ -411,7 +439,7 @@ form > label {
     margin-top: -10%;
 }
 
-.social {
+.socialOuterContainer {
     width: fit-content;
     float: right;
     padding:20px 60px;
@@ -422,14 +450,14 @@ form > label {
     border-radius: 0 0 0 40px;
 }
 
-.social > .socialUL > li{
+.socialOuterContainer > .socialInnerContainer > li{
     display: inline;
     list-style: none;
     padding: 0 12px;
     
 }
 
-.social > .socialUL > li > a > img{
+.socialOuterContainer > .socialInnerContainer > li > a > img{
     width:32px;
 }
 
@@ -456,12 +484,12 @@ footer > p {
     padding: 30px 0;
 }
 
-.wideBox {
+.shopItemContainer {
     width:100%;
     display:flex;
 }
 
-.wideBox > .breadContainer {
+.shopItemContainer > .breadContainer {
     width: 25%;
     text-align: left;
     margin: 30px auto 30px auto;
@@ -474,7 +502,7 @@ footer > p {
     filter: drop-shadow(0px 10px 6px black);
 }
 
-.wideBox > .breadContainer > h3 {
+.shopItemContainer > .breadContainer > h3 {
     color: #ac8a48;
     padding: 4px 0;
 }
@@ -484,7 +512,7 @@ footer > p {
     cursor: pointer;
 }
 
-.wideBox > .breadContainer > .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 > h2 {
+.shopItemContainer > .breadContainer > .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 > h2 {
     width: fit-content;
     padding: 4px 10px;
     background: #1c1c1c;
@@ -493,12 +521,12 @@ footer > p {
     cursor: pointer;
 }
 
-.wideBox > .breadContainer > p {
+.shopItemContainer > .breadContainer > p {
     font-size: 14px;
     color: wheat;
 }
 
-.wideBox > .breadContainer > img{
+.shopItemContainer > .breadContainer > img{
     width: 100%;
     text-align: left;
     border-radius: 20px;
@@ -568,7 +596,7 @@ span {
 	border-radius:4px;
 	border:1px solid #cfa859;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: navContentBox;
     text-align: center;
 }
     
@@ -582,7 +610,7 @@ span {
 	border:1px solid #cfa859;
 	border-radius:4px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: navContentBox;
 }
 
 .removeItem {
@@ -594,10 +622,10 @@ span {
 }
 
 @media screen and (max-width: 1307px) {
-    .boutUsHold {
+    .aboutUsContainer {
         flex-direction: column;
     }
-    .boutUs {
+    .aboutUs {
         max-width: 70%;
         margin:0 auto;
         color: wheat;
@@ -613,18 +641,18 @@ span {
         max-width:100%;
         align-items: center;
     }
-    .middle {
+    .navContentBox {
         margin: auto;
         width: 100%;
         padding-bottom: 4px;
     }
 
-    .wideBox  {
+    .shopItemContainer  {
         display:flex;
         flex-direction: column;
     }
 
-    .wideBox > .breadContainer {
+    .shopItemContainer > .breadContainer {
         width: 90%;
         text-align: left;
         margin: 30px auto 30px auto;
@@ -664,11 +692,11 @@ span {
         color: #ac8a48;
     }
 
-    .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+    .overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
         white-space: nowrap;
         color: white;
         position: absolute;
-        font-size: 1.9vw;
+        font-size: 2.4vw;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -696,39 +724,41 @@ span {
         align-items: center;
     }
     
-    .middle {
+    .navContentBox {
         margin: auto;
         width: fit-content;
         padding-bottom: 4px;
     }
     
-    nav > .middle > .left {
+    nav > .navContentBox > .compName {
         display: block;
     }
     
-    nav > .middle > .left > a {
+    nav > .navContentBox > .compName > a {
         text-decoration-style: double;
         text-decoration-color: #fdcb67;
         color: #141414;
         font-size: 36px; 
     }
     
-    nav > .middle > .left > a > h1{
+    nav > .navContentBox > .compName > a > h1{
         margin-bottom: 14px;
         padding-top: 14px;
         text-align: center;
     }
     
-    nav > .middle > .right {
+    nav > .navContentBox > .navBar {
         margin-top: 0;
         padding: 5px 0px 4.8px 0px;
     }
 
-    .slideHolder {
+    .overlayImagesOuterContainer {
         padding: 40px 0;
     }
 
-    .backgroundd {
+    .mainBackground {
+        padding: 0;
+        text-align: center;
         background-image: url("img/repeatingBarley2.jpg");
         background-size: 50%;
         background-color: rgb(51, 34, 23);
@@ -736,7 +766,7 @@ span {
         background-position-x: 0;
     }
 
-    .innerHolder {
+    .overlayImagesInnermostContainer {
         width: 100%;
         padding: 4% 16%;
         display: flex;
@@ -752,7 +782,7 @@ span {
         margin-top: 0;
     }
 
-    .displayHolderOne {
+    .overlayImagesInnerContainer {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -771,12 +801,12 @@ span {
 
 @media screen and (max-width: 1007px) {
 
-    .wideBox  {
+    .shopItemContainer  {
         display:flex;
         flex-direction: column;
     }
 
-    .wideBox > .breadContainer {
+    .shopItemContainer > .breadContainer {
         width: 90%;
         text-align: left;
         margin: 30px auto 30px auto;
@@ -965,28 +995,29 @@ span {
         max-width:100%;
     }
 
-    nav > .middle > .left > a > h1{
+    nav > .navContentBox > .compName > a > h1{
         padding: 20px 100px 0 20px;
         font-size: 36px;
     }
     
-    .slideHolder > .displayHolderOne > .innerHolder > .displayer > .overlay > .text {
+    .overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
         white-space: nowrap;
         color: white;
         position: absolute;
+        font-size: 2.4vw;
         top: 50%;
         left: 45%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
 
-    .middle {
+    .navContentBox {
         margin: auto;
         width: 100%;
         text-align: center;
     }
 
-    nav > .middle > .right > ul {
+    nav > .navContentBox > .navBar > ul {
         display: none;
         font-size:20px;
         float:left;
@@ -1008,23 +1039,24 @@ span {
         line-height: 30vh;
     }
 
-    nav > .middle > .right > ul > p {
+    nav > .navContentBox > .navBar > ul > p {
         display:none;
     }
 
-    nav > .middle > .right > ul > li{
+    nav > .navContentBox > .navBar > ul > li{
         display: block;
         padding:0 2px 0 2px;
         font-size:20px;
     }
-    nav > .middle > .left > a {
+    nav > .navContentBox > .compName > a {
         text-decoration-style: double;
         text-decoration-color: #fdcb67;
         color: #141414;
         font-size: 28px; 
     }
 
-    .threeX {
+    .closeMenu {
+        display: none;
         margin-top: -51px;
         color: #141414;
         font-size: 60px;
@@ -1035,7 +1067,7 @@ span {
         padding-top: 4px;
     }
 
-    .threeLines {
+    .menuButton {
         margin-top: -61px;
         color: #141414;
         font-size: 120px;
@@ -1050,7 +1082,7 @@ span {
 
 @media screen and (max-width: 432px) {
 
-    .threeLines {
+    .menuButton {
         margin-top: -61px;
         color: #141414;
         font-size: 120px;
@@ -1064,7 +1096,7 @@ span {
 
 @media screen and (max-width: 416px) {
 
-    .threeLines {
+    .menuButton {
         margin-top: -61px;
         color: #141414;
         font-size: 120px;
@@ -1074,7 +1106,7 @@ span {
         padding-right: 20px;
     }
 
-    .threeX {
+    .closeMenu {
         margin-top: -50px;
         color: #141414;
         font-size: 60px;
@@ -1086,7 +1118,7 @@ span {
 
 @media screen and (max-width: 347px) {
 
-    .threeLines {
+    .menuButton {
         margin-top: -92px;
         color: #141414;
         font-size: 120px;
@@ -1111,7 +1143,7 @@ span {
         line-height: 24vh;
     }
 
-    .threeX {
+    .closeMenu {
         margin-top: -76px;
         color: #141414;
         font-size: 60px;
@@ -1123,7 +1155,7 @@ span {
 }
 
 @media screen and (max-width: 356px) {
-    .social {
+    .socialOuterContainer {
         width: fit-content;
         width: 100%;
         padding:20px 60px;
@@ -1135,14 +1167,14 @@ span {
         text-align: center;
     }
     
-    .social > .socialUL > li{
+    .socialOuterContainer > .socialInnerContainer > li{
         display: inline;
         list-style: none;
         padding: 0 6px;
         
     }
     
-    .social > .socialUL > li > a > img{
+    .socialOuterContainer > .socialInnerContainer > li > a > img{
         width:24px;
     }
 
