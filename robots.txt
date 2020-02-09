@@ -1,2 +1,2 @@
-Disallow: aboutUs.html
+Disallow: /aboutUs/
 Sitemap: https://justsyde.github.io/breadHouse/sitemap.xml
