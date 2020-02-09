@@ -1,0 +1,2 @@
+Disallow: aboutUs.html
+Sitemap: https://justsyde.github.io/breadHouse/sitemap.xml
