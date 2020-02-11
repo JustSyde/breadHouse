@@ -233,4 +233,26 @@ $(function(){
         }
     });
 
+    $(document).ready(function(){
+        $("#incorrectFormatWarning").hide();
+    });
+    
+    $("#submit").attr("disabled", true);
+    $("#email").on("keyup", function(){
+    var regex=/^(\w+)\@([a-z]+)\.([a-z]{3})$/g;
+    var textEmail=$("#email").val();
+    
+        if(regex.test(textEmail)){
+            $("#incorrectFormatWarning").hide();
+        $("#submit").attr("disabled", false);
+        $("#submit").css({"cursor": "pointer"});
+        }
+        else{
+        $("#incorrectFormatWarning").show();
+            $("#submit").attr("disabled", true);
+            $("#submit").css({"cursor": "default"});
+    
+        }
+    });
+
 });

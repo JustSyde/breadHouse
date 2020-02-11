@@ -1,1 +1,1189 @@
-*{padding:0;margin:0;box-sizing:border-box;font-family:'Poppins',sans-serif}.loremTitle{color:#fdcb67;margin-bottom:5%}#bd1{display:none}#bd2{display:none}#bd3{display:none}#bd4{display:none}#bd5{display:none}#bd6{display:none}.linkToOrder{color:#f5deb3;text-decoration:none}.textWidth{width:80%}.readMoreInfo{color:#cfa859;cursor:pointer;font-size:20px}.moreText{display:none}.aboutUsContainer{display:flex;flex-direction:column;width:80%;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:20px;max-width:100%;margin:auto;color:#f5deb3;line-height:2;padding:1%}.aboutUs{max-width:70%;margin:0 auto;color:#f5deb3;line-height:2;padding:1%}.screenWidth{max-width:1100px}.headerBackgroundImage{text-align:center;width:100%;background-image:url(https://images.wallpaperscraft.com/image/wheat_spikelets_field_144604_1920x1080.jpg)}body > .overlayImagesOuterContainer{height:100%}.clear{clear:both}.gradient{height:100%;background:linear-gradient(0deg,rgba(0,0,0,0.3029586834733894) 0%,rgba(0,0,0,0.30015756302521013) 75%,rgba(0,0,0,0) 90%)}nav{background-image:url(img/repeatingBarley.jpg);background-size:25%;background-blend-mode:soft-light;background-color:hsla(41,43%,35%,0.767);border-radius:0 0 100px 100px;padding:5px 0;width:100vw;max-width:100%;align-items:center}.navContentBox{margin:auto;width:1100px}nav > .navContentBox > .compName{display:flex}nav > .navContentBox > .compName > a > img{width:100px;float:left}nav > .navContentBox > .compName > a{text-decoration-style:double;text-decoration-color:#fdcb67;color:#141414;font-size:36px}nav > .navContentBox > .compName > a > h1{margin-bottom:14px;padding-top:14px}nav > .navContentBox > .navBar{float:right;margin-top:-58px;padding:5px 0 4.8px}nav > .navContentBox > .navBar > ul{display:flex;font-size:20px}nav > .navContentBox > .navBar > ul > li{display:inline;padding:0 10px;font-size:20px}nav > .navContentBox > .navBar > ul > li > a{text-decoration:none;color:#141414;padding:5px}nav > .navContentBox > .navBar > ul > li > a:hover{text-decoration:none;color:#fff;background-color:#1c1c1c;padding:5px;border-radius:6px}nav > .navContentBox > .navBar > ul > li > .currentPage{text-decoration:none;color:#fdcb67;font-weight:700;padding:5px;background-color:hsl(0,0%,19%);border-radius:6px;font-weight:400}form{color:#ac8a48;padding:20px;width:240px;border:solid 2px #1c1c1c;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px}.orderForm{width:fit-content;height:346px}form > input{padding:4px;display:block;border:solid 2px #292929;border-radius:4px;width:200px;color:#ac8a48;background:#1c1c1c}textarea{resize:none;min-width:200px;min-height:100px;max-width:200px;max-height:100px;display:block;border:solid 2px #292929;border-radius:4px;padding:4px;color:#ac8a48;background:#1c1c1c}form > button{margin:auto;display:block;padding:0 8px;border:solid 1px #292929;border-radius:3px;margin-top:20px;font-size:30px;color:#f5deb3;background-color:#4b8327}form > label{padding-top:6px;display:block;font-size:12px}.divisionLine{width:100%;height:100px;border-radius:40px 40px 0 0}.overlayImagesOuterContainer{padding:40px 0}.addPadding{padding:5%}.mainBackground{text-align:center;background-image:url(img/repeatingBarley2.jpg);background-size:50%;background-color:#332217;background-blend-mode:multiply;background-position-x:7%}.overlayImagesInnerContainer{width:100%;display:flex}.overlayImagesInnermostContainer{width:50%;padding:4%}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage{margin:0 auto;display:flex;position:relative;width:100%}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > img{width:100%;display:block}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(90deg,rgba(187,150,75,0.75) 0%,rgba(187,150,75,0.5) 75%,rgba(187,150,75,0.25) 100%);overflow:hidden;width:0;height:100%;transition:.5s ease}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay{width:100%;overflow:auto;-ms-overflow-style:none}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text{white-space:nowrap;color:#fff;font-size:1.2vw;position:absolute;text-align:left;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text1{color:#fff;font-size:24px;padding:20px 80px;line-height:3}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay{width:100%;overflow:auto;-ms-overflow-style:none}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay::-webkit-scrollbar{display:none}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > img{height:100%}.hmm::-webkit-scrollbar{display:none;overflow:auto;-ms-overflow-style:none;scrollbar-width:0}:-moz-any(#content,#appcontent) browser{margin-right:-14px!important;overflow-y:scroll;margin-bottom:-14px!important;overflow-x:scroll}.textHolder{margin:0 auto;font-size:40px;text-align:center;width:100%}.textHolder > .attentionText{white-space:nowrap;margin:0 auto;font-size:2.5vw;text-align:center;padding:0 0 30px;font-weight:700;width:90%;color:#ac8a48}.sliderContainer{margin:100px auto 0;max-width:1100px;overflow:hidden;position:relative;filter:drop-shadow(0px 10px 6px black);animation:drop 1.5s ease}.slides{list-style:none;display:flex;width:6000px;margin:0;padding:0;transition:.5s ease}.sliderContainer > .slides > .slide > img{margin:0;float:left;list-style-type:none}.sliderContainer > .rightArrow{position:absolute;top:50%;right:-24px;transform:translate(-50%,-50%);max-height:64px;border-radius:20px 0 0 20px}.sliderContainer > .leftArrow{position:absolute;top:50%;left:20px;transform:translate(-50%,-50%);max-height:64px;border-radius:0 20px 20px 0}.sliderContainer > .rightHalf{width:50%;height:100%;position:absolute;right:0;cursor:pointer}.sliderContainer > .leftHalf{width:50%;height:100%;position:absolute;cursor:pointer}.sliderContainer > img:hover{cursor:pointer}.disNoneToBlock{display:none}.menuButton{color:#fff;font-size:60px;line-height:8px;display:none}.scrollNo{overflow:hidden}.marginCorrectionOne{margin-top:10%}.marginCorrectionTwo{margin-top:-10%}.socialOuterContainer{width:fit-content;float:right;padding:20px 60px;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:0 0 0 40px}.socialOuterContainer > .socialInnerContainer > li{display:inline;list-style:none;padding:0 12px}.socialOuterContainer > .socialInnerContainer > li > a > img{width:32px}footer{background-color:#141414;text-align:center;padding:20px 0}footer > p{color:#fdcb67}.shopText{background:linear-gradient(0deg,rgba(0,0,0,0.3029586834733894) 0%,rgba(0,0,0,0.30015756302521013) 75%,rgba(0,0,0,0) 100%);color:#f5deb3;font-weight:800;font-size:40px;padding:10% 0}.shopItems{height:fit-content;padding:30px 0}.shopItemContainer{width:100%;display:flex}.shopItemContainer > .breadContainer{width:25%;text-align:left;margin:30px auto;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px;padding:20px;filter:drop-shadow(0px 10px 6px black)}.shopItemContainer > .breadContainer > h3{color:#ac8a48;padding:4px 0}.addToCart1,.addToCart2,.addToCart3,.addToCart4,.addToCart5,.addToCart6{margin:10px 0 0 10px;cursor:pointer}.shopItemContainer > .breadContainer > .addToCart1,.addToCart2,.addToCart3,.addToCart4,.addToCart5,.addToCart6 > h2{width:fit-content;padding:4px 10px;background:#1c1c1c;border-radius:5px;color:#cfa859;cursor:pointer}.shopItemContainer > .breadContainer > p{font-size:14px;color:#f5deb3}.shopItemContainer > .breadContainer > img{width:100%;text-align:left;border-radius:20px;border:solid 2px #1c1c1c}.shoppingArea{width:80%;margin:auto;padding-bottom:20px;display:flex}.shoppingArea > .cartArea{margin-right:5%;width:max-content;border:solid 2px #1c1c1c;padding:20px;height:346px;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px;width:100%}.items{width:100%;background:#1c1c1c;float:left;border:solid 2px #1c1c1c;padding:4px;display:flex;margin-bottom:4px;border-radius:5px}.shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread{color:#1c1c1c;font-size:24px;font-weight:700;text-align:left;display:flex;margin-right:30vw;color:#cfa859}.leitHalf,.raitHalf{width:50%}.numberz{float:right}span{cursor:pointer}.minus,.plus{width:20px;height:20px;color:#cfa859;background-color:#242424;border-radius:4px;border:1px solid #cfa859;display:inline-block;vertical-align:navContentBox;text-align:center}.numberz > input{height:34px;width:100px;text-align:center;color:#cfa859;background-color:#242424;font-size:26px;border:1px solid #cfa859;border-radius:4px;display:inline-block;vertical-align:navContentBox}.removeItem{padding:4px 4px 0 14px}.removeItem > p{color:#cfa859;cursor:pointer}@media screen and (max-width: 1307px){.aboutUsContainer{flex-direction:column}.aboutUs{max-width:70%;margin:0 auto;color:#f5deb3;line-height:2;padding:1%}nav{background-color:hsla(41,43%,35%,0.767);border-radius:0;padding:5px 100px;width:100vw;max-width:100%;align-items:center}.navContentBox{margin:auto;width:100%;padding-bottom:4px}.shopItemContainer{display:flex;flex-direction:column}.shopItemContainer > .breadContainer{width:90%;text-align:left;margin:30px auto;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px;padding:20px;filter:drop-shadow(0px 10px 6px black)}.shopItems{width:100%;height:fit-content;padding:30px 0;display:flex}}@media screen and (max-width: 1207px){.divisionLine{border-radius:0}}@media screen and (max-width: 1120px){.textHolder > .attentionText{white-space:nowrap;margin:0 auto;font-size:4vw;text-align:center;padding:0 0 30px;font-weight:700;width:90%;color:#ac8a48}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text{white-space:nowrap;color:#fff;position:absolute;font-size:2.4vw;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}.screenWidth{max-width:100vw}.textWidth{max-width:calc(100vw - 22.22%)}.disNoneToBlock{display:block}nav{background-color:hsla(41,43%,35%,0.767);border-radius:0;padding:5px 100px;width:100vw;max-width:100%;align-items:center}.navContentBox{margin:auto;width:fit-content;padding-bottom:4px}nav > .navContentBox > .compName{display:block}nav > .navContentBox > .compName > a{text-decoration-style:double;text-decoration-color:#fdcb67;color:#141414;font-size:36px}nav > .navContentBox > .compName > a > h1{margin-bottom:14px;padding-top:14px;text-align:center}nav > .navContentBox > .navBar{margin-top:0;padding:5px 0 4.8px}.overlayImagesOuterContainer{padding:40px 0}.mainBackground{padding:0;text-align:center;background-image:url(img/repeatingBarley2.jpg);background-size:50%;background-color:#332217;background-blend-mode:multiply;background-position-x:0}.overlayImagesInnermostContainer{width:100%;padding:4% 16%;display:flex;flex-direction:column;float:left}.marginCorrectionOne{margin-top:0}.marginCorrectionTwo{margin-top:0}.overlayImagesInnerContainer{width:100%;display:flex;flex-direction:column}.shoppingArea{width:90%;margin:auto;padding-bottom:20px;display:flex}}@media screen and (max-width: 310px){.fix{margin:40px 0 0}}@media screen and (max-width: 1007px){.shopItemContainer{display:flex;flex-direction:column}.shopItemContainer > .breadContainer{width:90%;text-align:left;margin:30px auto;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px;padding:20px;filter:drop-shadow(0px 10px 6px black)}.shopItems{width:100%;height:fit-content;padding:30px 0;display:flex;flex-direction:column}.shoppingArea{width:90%;margin:auto;padding-bottom:20px;display:flex;flex-direction:column}.orderForm{width:100%;height:346px;margin:20px 0}form{width:60%;margin:10px auto 0}form > input{padding:4px;display:block;border:solid 2px #292929;border-radius:4px;width:100%;color:#ac8a48;background:#1c1c1c}textarea{resize:none;min-width:100%;min-height:100px;max-width:100%;max-height:100px;display:block;border:solid 2px #292929;border-radius:4px;padding:4px;color:#ac8a48;background:#1c1c1c}form > button{margin:auto;display:block;padding:0 8px;border:solid 1px #292929;border-radius:3px;margin-top:20px;font-size:30px;color:#f5deb3;background-color:#4b8327}form > label{padding-top:6px;display:block;font-size:12px}}@media screen and (max-width: 476px){.items{flex-direction:column;width:100%;align-items:center}.raitHalf,.leitHalf{width:fit-content}.shoppingArea > .cartArea{margin-right:5%;width:max-content;border:solid 2px #1c1c1c;padding:20px;min-height:260px;height:fit-content;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:40px;width:100%}.shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread{font-size:24px;font-weight:700;text-align:center;display:flex;margin-right:0;color:#cfa859}.removeItem{padding:4px 4px 0}.orderForm{width:100%;height:346px;margin:20px 0}form{width:90%;margin:10px auto 0}form > input{padding:4px;display:block;border:solid 2px #292929;border-radius:4px;width:100%;color:#ac8a48;background:#1c1c1c}textarea{resize:none;min-width:100%;min-height:100px;max-width:100%;max-height:100px;display:block;border:solid 2px #292929;border-radius:4px;padding:4px;color:#ac8a48;background:#1c1c1c}form > button{margin:auto;display:block;padding:0 8px;border:solid 1px #292929;border-radius:3px;margin-top:20px;font-size:30px;color:#f5deb3;background-color:#4b8327}form > label{padding-top:6px;display:block;font-size:12px}}@media screen and (max-width: 684px){nav{background-color:hsla(41,43%,35%,0.767);border-radius:0;padding:5px 0;width:100vw;max-width:100%}nav > .navContentBox > .compName > a > h1{padding:20px 100px 0 20px;font-size:36px}.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text{white-space:nowrap;color:#fff;position:absolute;font-size:2.4vw;top:50%;left:45%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}.navContentBox{margin:auto;width:100%;text-align:center}nav > .navContentBox > .navBar > ul{display:none;font-size:20px;float:left;text-align:center}.menuUL{position:absolute;z-index:1000;bottom:0;left:0;right:0;top:111px;background-color:hsla(41,43%,35%,0.9);overflow:hidden;width:100%;height:100%;transition:.5s ease;line-height:20vh}nav > .navContentBox > .navBar > ul > p{display:none}nav > .navContentBox > .navBar > ul > li{display:block;padding:0 2px;font-size:20px}nav > .navContentBox > .compName > a{text-decoration-style:double;text-decoration-color:#fdcb67;color:#141414;font-size:28px}.closeMenu{display:none;margin-top:-51px;color:#141414;font-size:60px;line-height:16px;display:block;cursor:pointer;margin-right:34px;padding-top:4px}.menuButton{margin-top:-61px;color:#141414;font-size:120px;line-height:16px;display:block;cursor:pointer;padding-right:20px}}@media screen and (max-width: 432px){.menuButton{margin-top:-61px;color:#141414;font-size:120px;line-height:16px;display:block;cursor:pointer;padding-right:20px}}@media screen and (max-width: 416px){.menuButton{margin-top:-61px;color:#141414;font-size:120px;line-height:16px;display:block;cursor:pointer;padding-right:20px}.closeMenu{margin-top:-50px;color:#141414;font-size:60px;line-height:16px;display:block;cursor:pointer}}@media screen and (max-width: 347px){.menuButton{margin-top:-92px;color:#141414;font-size:120px;line-height:16px;display:block;cursor:pointer;padding-right:20px}.menuUL{position:absolute;z-index:1000;bottom:0;left:0;right:0;top:164px;background-color:hsla(41,43%,35%,0.9);overflow:hidden;width:100%;height:100%;transition:.5s ease;line-height:20vh}.closeMenu{margin-top:-76px;color:#141414;font-size:60px;line-height:16px;display:block;cursor:pointer}}@media screen and (max-width: 372px){.socialOuterContainer{width:fit-content;width:100%;padding:20px 60px;background-image:url(img/repeatingBarley.jpg);background-size:192px;background-blend-mode:multiply;background-color:#523e19;border-radius:0 0 0 40px;text-align:center}.socialOuterContainer > .socialInnerContainer > li{display:inline;list-style:none;padding:0 6px}.socialOuterContainer > .socialInnerContainer > li > a > img{width:24px}}
+* {
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#bd1 {display: none;}
+#bd2 {display: none;}
+#bd3 {display: none;}
+#bd4 {display: none;}
+#bd5 {display: none;}
+#bd6 {display: none;}
+
+.linkToOrder {
+    color: wheat;
+    text-decoration: none;
+}
+
+.textWidth {
+    width: 80%;
+}
+
+.readMoreInfo {
+    color: #cfa859;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.moreText {
+    display: none;
+}
+
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 20px;
+    max-width: 100%;
+    margin: auto;
+    color: wheat;
+    line-height: 2;
+    padding: 1% 1%;
+}
+
+.aboutUs {
+    max-width: 70%;
+    margin:0 auto;
+    color: wheat;
+    line-height: 2;
+    padding: 1% 1%;
+}
+
+.screenWidth {
+    max-width: 1100px;
+}
+
+.headerBackgroundImage {
+    text-align: center;
+    width: 100%;
+    background-image: url("https://images.wallpaperscraft.com/image/wheat_spikelets_field_144604_1920x1080.jpg");
+}
+
+body > .overlayImagesOuterContainer {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.gradient {
+    height:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.3029586834733894) 0%, rgba(0,0,0,0.30015756302521013) 75%, rgba(0,0,0,0) 90%);
+}
+
+nav {
+    background-image: url("img/repeatingBarley.jpg");
+    background-size: 25%;
+    background-blend-mode: soft-light;
+    background-color: hsla(41, 43%, 35%, 0.767);
+    border-radius: 0 0 100px 100px;
+    padding: 5px 0;
+    width: 100vw;
+    max-width:100%;
+    align-items: center;
+    
+}
+
+.navContentBox {
+    margin: auto;
+    width: 1100px;
+}
+
+nav > .navContentBox > .compName {
+    display: flex;
+}
+
+nav > .navContentBox > .compName > a > img {
+    width: 100px;
+    float:left;
+}
+
+nav > .navContentBox > .compName > a {
+    text-decoration-style: double;
+    text-decoration-color: #fdcb67;
+    color: #141414;
+    font-size: 36px; 
+}
+
+nav > .navContentBox > .compName > a > h1{
+    margin-bottom: 14px;
+    padding-top: 14px;
+}
+
+nav > .navContentBox > .navBar {
+    float:right;
+    margin-top: -58px;
+    padding: 5px 0px 4.8px 0px;
+}
+
+nav > .navContentBox > .navBar > ul {
+    display:flex;
+    font-size:20px;
+}
+
+nav > .navContentBox > .navBar > ul > li{
+    display:inline;
+	padding:0 10px 0 10px;
+	font-size:20px;
+    
+}
+
+nav > .navContentBox > .navBar > ul > li > a{
+    text-decoration: none;
+    color: #141414;
+    padding: 5px;
+}
+
+nav > .navContentBox > .navBar > ul > li > a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #1c1c1c;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+nav > .navContentBox > .navBar > ul > li > .currentPage{
+    text-decoration: none;
+    color: #fdcb67;
+    font-weight: bold;
+    padding:5px;
+    background-color: hsl(0, 0%, 19%);
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+form {
+    color:#ac8a48;
+    padding:20px;
+    width: 240px;
+    border: solid 2px #1c1c1c;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
+}
+
+.orderForm {
+    width: fit-content; 
+    height: 346px; 
+}
+
+form > input {
+    padding:4px;
+    display: block;
+    border:solid 2px rgb(41, 41, 41);
+    border-radius: 4px;
+    width: 200px;
+    color: #ac8a48;
+    background: #1c1c1c;
+}
+
+textarea {
+    resize: none;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+    display: block;
+    border:solid 2px rgb(41, 41, 41);
+    border-radius: 4px;
+    padding:4px;
+    color: #ac8a48;
+    background: #1c1c1c;
+}
+
+form > button {
+    margin: auto;
+    display: block;
+    padding:0px 8px;
+    border:solid 1px rgb(41, 41, 41);
+    border-radius: 3px;
+    margin-top:20px;
+    font-size: 30px;
+    color: wheat;
+    background-color: rgb(75, 131, 39);
+
+}
+
+form > label {
+    padding-top: 6px;
+    display: block;
+    font-size: 12px;
+}
+
+.divisionLine {
+    width: 100%;
+    height: 100px;
+    border-radius: 40px 40px 0 0;
+}
+
+.overlayImagesOuterContainer {
+    padding: 40px 0;
+}
+
+.addPadding {
+    padding: 100px;
+}
+
+.mainBackground {
+    text-align: center;
+    background-image: url("img/repeatingBarley2.jpg");
+    background-size: 50%;
+    background-color: rgb(51, 34, 23);
+    background-blend-mode: multiply;
+    background-position-x: 7%;
+}
+
+.overlayImagesInnerContainer {
+    width: 100%;
+    display: flex;
+}
+
+.overlayImagesInnermostContainer {
+    width: 50%;
+    padding: 4%;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > img {
+    width: 100%;
+    display: block;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(187,150,75,0.75) 0%, rgba(187,150,75,0.5) 75%, rgba(187,150,75,0.25) 100%);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay {
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 1.2vw;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text1 {
+    color: white;
+    font-size: 24px;
+    padding: 20px 80px;
+    line-height: 3;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay {
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > .overlay::-webkit-scrollbar {
+    display: none;
+}
+
+.overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage:hover > img{
+    height: 100%;
+}
+
+.hmm::-webkit-scrollbar {
+    display: none;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+
+:-moz-any(#content,#appcontent) browser{
+    margin-right:-14px!important;
+    overflow-y:scroll;
+    margin-bottom:-14px!important;
+    overflow-x:scroll;
+}
+
+.textHolder {
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.textHolder > .attentionText {
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0px 0 30px 0;
+    font-weight: bold;
+    width: 90%;
+    color: #ac8a48;
+}
+
+.sliderContainer {
+    margin: 100px auto 0 auto;
+    max-width: 1100px;
+    overflow: hidden;
+    position: relative;
+    filter: drop-shadow(0px 10px 6px black);
+    animation: drop 1.5s ease;
+}
+
+.slides {
+    list-style: none;
+    display: flex;
+    width: 6000px;
+    margin: 0;
+    padding: 0;
+    transition: .5s ease;
+}
+
+.sliderContainer > .slides > .slide > img {
+    margin: 0;
+    float:left;
+    list-style-type: none;
+}
+
+
+
+.sliderContainer > .rightArrow{
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    transform: translate(-50%, -50%);
+    max-height: 64px;
+    border-radius: 20px 0 0 20px;
+}
+
+.sliderContainer > .leftArrow{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    max-height: 64px;
+    border-radius: 0 20px 20px 0;
+}
+
+.sliderContainer > .rightHalf{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.sliderContainer > .leftHalf{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.sliderContainer > img:hover{
+    cursor: pointer;
+}
+
+.disNoneToBlock {
+    display:none;
+}
+
+.menuButton {
+    color: white;
+    font-size: 60px;
+    line-height: 8px;
+    display: none;
+}
+
+.scrollNo{
+    overflow: hidden;
+}
+
+.marginCorrectionOne {
+    margin-top: 10%;
+}
+
+.marginCorrectionTwo {
+    margin-top: -10%;
+}
+
+.socialOuterContainer {
+    width: fit-content;
+    float: right;
+    padding:20px 60px;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 0 0 0 40px;
+}
+
+.socialOuterContainer > .socialInnerContainer > li{
+    display: inline;
+    list-style: none;
+    padding: 0 12px;
+    
+}
+
+.socialOuterContainer > .socialInnerContainer > li > a > img{
+    width:32px;
+}
+
+footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer > p {
+    color: #fdcb67;
+}
+
+.shopText {
+    background: linear-gradient(0deg, rgba(0,0,0,0.3029586834733894) 0%, rgba(0,0,0,0.30015756302521013) 75%, rgba(0,0,0,0) 100%);
+    color: wheat;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 10% 0;
+}
+
+.shopItems {
+    height: fit-content;
+    padding: 30px 0;
+}
+
+.shopItemContainer {
+    width:100%;
+    display:flex;
+}
+
+.shopItemContainer > .breadContainer {
+    width: 25%;
+    text-align: left;
+    margin: 30px auto 30px auto;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
+    padding: 20px;
+    filter: drop-shadow(0px 10px 6px black);
+}
+
+.shopItemContainer > .breadContainer > h3 {
+    color: #ac8a48;
+    padding: 4px 0;
+}
+
+.addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 {
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.shopItemContainer > .breadContainer > .addToCart1, .addToCart2, .addToCart3, .addToCart4, .addToCart5, .addToCart6 > h2 {
+    width: fit-content;
+    padding: 4px 10px;
+    background: #1c1c1c;
+    border-radius: 5px;
+    color: #cfa859;
+    cursor: pointer;
+}
+
+.shopItemContainer > .breadContainer > p {
+    font-size: 14px;
+    color: wheat;
+}
+
+.shopItemContainer > .breadContainer > img{
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+    border: solid 2px #1c1c1c;
+}
+
+.shoppingArea {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    height: 435px;
+}
+
+.shoppingArea > .cartArea {
+    margin-right: 5%;
+    width: max-content;
+    border: solid 2px #1c1c1c;
+    padding: 20px;
+    height: 346px;
+    background-image: url('img/repeatingBarley.jpg');
+    background-size: 192px;
+    background-blend-mode: multiply;
+    background-color: rgb(82, 62, 25);
+    border-radius: 40px;
+    width: 100%;
+}
+
+.items {
+    width: 100%;
+    background: #1c1c1c;
+    float:left;
+    border: solid 2px #1c1c1c;
+    padding: 4px;
+    display: flex;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+.shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread{
+    color: #1c1c1c;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-right: 30vw;
+    color: #cfa859;
+}
+
+.leitHalf, .raitHalf {
+    width: 50%;
+}
+
+.numberz {
+    float: right;
+    
+}
+
+span {
+    cursor:pointer; 
+}
+
+.minus, .plus {
+	width:20px;
+	height:20px;
+	color: #cfa859;
+    background-color: #242424;
+	border-radius:4px;
+	border:1px solid #cfa859;
+    display: inline-block;
+    vertical-align: navContentBox;
+    text-align: center;
+}
+    
+.numberz > input {
+	height:34px;
+    width: 100px;
+    text-align: center;
+    color: #cfa859;
+    background-color: #242424;
+    font-size: 26px;
+	border:1px solid #cfa859;
+	border-radius:4px;
+    display: inline-block;
+    vertical-align: navContentBox;
+}
+
+.removeItem {
+    padding: 4px 4px 0 14px;
+}
+.removeItem > p{
+    color: #cfa859;
+    cursor: pointer;
+}
+
+#incorrectFormatWarning {
+    color: rgb(255, 94, 0);
+    font-size: 1vw;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1307px) {
+    .aboutUsContainer {
+        flex-direction: column;
+    }
+    .aboutUs {
+        max-width: 70%;
+        margin:0 auto;
+        color: wheat;
+        line-height: 2;
+        padding: 1% 1%;
+    }
+
+    nav {
+        background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
+        padding: 5px 100px;
+        width: 100vw;
+        max-width:100%;
+        align-items: center;
+    }
+    .navContentBox {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 4px;
+    }
+
+    .shopItemContainer  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .shopItemContainer > .breadContainer {
+        width: 90%;
+        text-align: left;
+        margin: 30px auto 30px auto;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        padding: 20px;
+        filter: drop-shadow(0px 10px 6px black);
+    }
+
+    .shopItems {
+        width: 100%;
+        height: fit-content;
+        padding: 30px 0;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1207px) {
+    .divisionLine {
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .textHolder > .attentionText {
+        white-space: nowrap;
+        margin: 0 auto;
+        font-size: 4vw;
+        text-align: center;
+        padding: 0px 0 30px 0;
+        font-weight: bold;
+        width: 90%;
+        color: #ac8a48;
+    }
+
+    .overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
+        white-space: nowrap;
+        color: white;
+        position: absolute;
+        font-size: 2.4vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .screenWidth {
+        max-width: 100vw;
+    }
+
+    .textWidth {
+        max-width: calc(100vw - 22.22%);
+    }
+
+    .disNoneToBlock {
+        display:block;
+    }
+    
+    nav {
+        background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
+        padding: 5px 100px;
+        width: 100vw;
+        max-width:100%;
+        align-items: center;
+    }
+    
+    .navContentBox {
+        margin: auto;
+        width: fit-content;
+        padding-bottom: 4px;
+    }
+    
+    nav > .navContentBox > .compName {
+        display: block;
+    }
+    
+    nav > .navContentBox > .compName > a {
+        text-decoration-style: double;
+        text-decoration-color: #fdcb67;
+        color: #141414;
+        font-size: 36px; 
+    }
+    
+    nav > .navContentBox > .compName > a > h1{
+        margin-bottom: 14px;
+        padding-top: 14px;
+        text-align: center;
+    }
+    
+    nav > .navContentBox > .navBar {
+        margin-top: 0;
+        padding: 5px 0px 4.8px 0px;
+    }
+
+    .overlayImagesOuterContainer {
+        padding: 40px 0;
+    }
+
+    .mainBackground {
+        padding: 0;
+        text-align: center;
+        background-image: url("img/repeatingBarley2.jpg");
+        background-size: 50%;
+        background-color: rgb(51, 34, 23);
+        background-blend-mode: multiply;
+        background-position-x: 0;
+    }
+
+    .addPadding {
+        padding:100px 5%;
+    }
+
+    .overlayImagesInnermostContainer {
+        width: 100%;
+        padding: 4% 16%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+
+    .marginCorrectionOne {
+        margin-top: 0;
+    }
+
+    .marginCorrectionTwo {
+        margin-top: 0;
+    }
+
+    .overlayImagesInnerContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shoppingArea {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 310px) {.fix {margin: 40px 0 0 0;}}
+
+@media screen and (max-width: 1007px) {
+
+    .shopItemContainer  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .shopItemContainer > .breadContainer {
+        width: 90%;
+        text-align: left;
+        margin: 30px auto 30px auto;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        padding: 20px;
+        filter: drop-shadow(0px 10px 6px black);
+    }
+
+    .shopItems {
+        width: 100%;
+        height: fit-content;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shoppingArea {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orderForm {
+        width: 100%; 
+        height: 346px; 
+        margin: 20px 0;
+    }
+    
+    form {
+        width: 60%;
+        margin: 10px auto 0 auto;
+    }
+    
+    form > input {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        width: 100%;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    textarea {
+        resize: none;
+        min-width: 100%;
+        min-height: 100px;
+        max-width: 100%;
+        max-height: 100px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        padding:4px;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    form > button {
+        margin: auto;
+        display: block;
+        padding:0px 8px;
+        border:solid 1px rgb(41, 41, 41);
+        border-radius: 3px;
+        margin-top:20px;
+        font-size: 30px;
+        color: wheat;
+        background-color: rgb(75, 131, 39);
+    
+    }
+    
+    form > label {
+        padding-top: 6px;
+        display: block;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 476px) {
+    .items {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .raitHalf, .leitHalf {
+        width: fit-content;
+    }
+
+    .shoppingArea > .cartArea {
+        margin-right: 5%;
+        width: max-content;
+        border: solid 2px #1c1c1c;
+        padding: 20px;
+        min-height: 260px ;
+        height: fit-content;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 40px;
+        width: 100%;
+    }
+
+    .shoppingArea > .cartArea > .items > .leitHalf > .nameOfTheBread {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        margin-right: 0;
+        color: #cfa859;
+    }
+
+    .removeItem {
+        padding: 4px 4px 0;
+    }
+
+    .orderForm {
+        width: 100%; 
+        height: 346px; 
+        margin: 20px 0;
+    }
+    
+    form {
+        width: 90%;
+        margin: 10px auto 0 auto;
+    }
+    
+    form > input {
+        padding:4px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        width: 100%;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    textarea {
+        resize: none;
+        min-width: 100%;
+        min-height: 100px;
+        max-width: 100%;
+        max-height: 100px;
+        display: block;
+        border:solid 2px rgb(41, 41, 41);
+        border-radius: 4px;
+        padding:4px;
+        color: #ac8a48;
+        background: #1c1c1c;
+    }
+    
+    form > button {
+        margin: auto;
+        display: block;
+        padding:0px 8px;
+        border:solid 1px rgb(41, 41, 41);
+        border-radius: 3px;
+        margin-top:20px;
+        font-size: 30px;
+        color: wheat;
+        background-color: rgb(75, 131, 39);
+    
+    }
+    
+    form > label {
+        padding-top: 6px;
+        display: block;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 684px) {
+
+    nav {
+        background-color: hsla(41, 43%, 35%, 0.767);
+        border-radius: 0;
+        padding: 5px 0px;
+        width: 100vw;
+        max-width:100%;
+    }
+
+    nav > .navContentBox > .compName > a > h1{
+        padding: 20px 100px 0 20px;
+        font-size: 36px;
+    }
+    
+    .overlayImagesOuterContainer > .overlayImagesInnerContainer > .overlayImagesInnermostContainer > .overlayImage > .overlay > .text {
+        white-space: nowrap;
+        color: white;
+        position: absolute;
+        font-size: 2.4vw;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .navContentBox {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav > .navContentBox > .navBar > ul {
+        display: none;
+        font-size:20px;
+        float:left;
+        text-align: center;
+    }
+
+    .menuUL {
+        position: absolute;
+        z-index:1000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 111px;
+        background-color: hsla(41, 43%, 35%, 0.9);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        line-height: 20vh;
+    }
+
+    nav > .navContentBox > .navBar > ul > p {
+        display:none;
+    }
+
+    nav > .navContentBox > .navBar > ul > li{
+        display: block;
+        padding:0 2px 0 2px;
+        font-size:20px;
+    }
+    nav > .navContentBox > .compName > a {
+        text-decoration-style: double;
+        text-decoration-color: #fdcb67;
+        color: #141414;
+        font-size: 28px; 
+    }
+
+    .closeMenu {
+        display: none;
+        margin-top: -51px;
+        color: #141414;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        margin-right: 34px;
+        padding-top: 4px;
+    }
+
+    .menuButton {
+        margin-top: -61px;
+        color: #141414;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 432px) {
+
+    .menuButton {
+        margin-top: -61px;
+        color: #141414;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 416px) {
+
+    .menuButton {
+        margin-top: -61px;
+        color: #141414;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .closeMenu {
+        margin-top: -50px;
+        color: #141414;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 347px) {
+
+    .menuButton {
+        margin-top: -92px;
+        color: #141414;
+        font-size: 120px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+
+    .menuUL {
+        position: absolute;
+        z-index:1000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 164px;
+        background-color: hsla(41, 43%, 35%, 0.9);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+        line-height: 20vh;
+    }
+
+    .closeMenu {
+        margin-top: -76px;
+        color: #141414;
+        font-size: 60px;
+        line-height: 16px;
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 372px) {
+
+    .socialOuterContainer {
+        width: fit-content;
+        width: 100%;
+        padding:20px 60px;
+        background-image: url('img/repeatingBarley.jpg');
+        background-size: 192px;
+        background-blend-mode: multiply;
+        background-color: rgb(82, 62, 25);
+        border-radius: 0 0 0 40px;
+        text-align: center;
+    }
+    
+    .socialOuterContainer > .socialInnerContainer > li{
+        display: inline;
+        list-style: none;
+        padding: 0 6px;
+        
+    }
+    
+    .socialOuterContainer > .socialInnerContainer > li > a > img{
+        width:24px;
+    }
+
+}
