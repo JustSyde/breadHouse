@@ -620,7 +620,7 @@ span {
 
 #incorrectFormatWarning {
     color: rgb(255, 94, 0);
-    font-size: 1vw;
+    font-size: 0.75vw;
     font-weight: 200;
 }
 
