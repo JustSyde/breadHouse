@@ -1,1 +1,236 @@
-$(function(){var a=1;$(".closeMenu").on("click",function(){1==a?($(".navBarList").addClass("menuUL"),$(".navBarList").css("display","block"),$("html").addClass("scrollNo"),$(".menuButton").css("display","none"),$(".closeMenu").css("display","block"),a=2):($(".navBarList").removeClass("menuUL"),$(".navBarList").css("display","none"),$("html").removeClass("scrollNo"),$(".menuButton").css("display","block"),$(".closeMenu").css("display","none"),a=1)}),$(".menuButton").on("click",function(){1==a?($(".navBarList").addClass("menuUL"),$(".navBarList").css("display","block"),$("html").addClass("scrollNo"),$(".menuButton").css("display","none"),$(".closeMenu").css("display","block"),a=2):($(".navBarList").removeClass("menuUL"),$(".navBarList").css("display","none"),$("html").removeClass("scrollNo"),$(".menuButton").css("display","block"),$(".closeMenu").css("display","none"),a=1)});var b=$(".slides"),c=$(".leftHalf"),d=$(".rightHalf"),e=1,f=6,g=$(".screenWidth"),h=g/50;b.css("margin-left","0px"),e=1,g=$(window).outerWidth(),$(window).on("resize",function(){b.css("margin-left","0px"),e=1,g=$(window).outerWidth(),h=g/50,a=1,$("html").removeClass("scrollNo"),$(".closeMenu").css("display","none"),g<1100&&($(".press").css("width",6*h+"px"),$(".hold_text").css("max-height",50*h/3.28+"px")),g>=685&&($(".navBarList").removeClass("menuUL"),$(".navBarList").css("display","flex"),$(".menuButton").css("display","none"),a=1),g<=684&&($(".navBarList").css("display","none"),$(".menuButton").css("display","block")),g<=390&&($(".navBarList").css("display","none"),$(".menuButton").css("display","block"))}),$(window).trigger("resize"),d.on("click",function(){e==f?(b.css("margin-left","0px"),e=1):(g>=1100&&(g=1100),b.css("margin-left","-"+g*e+"px"),e++)}),c.on("click",function(){1==e?(g>=1100&&(g=1100),b.css("margin-left","-"+g*(f-1)+"px"),e=f):(g>=1100&&(g=1100),b.css("margin-left","-"+g*(e-2)+"px"),e--)});var i=setInterval(function(){e==f?(b.css("margin-left","0px"),e=1):(g>=1100&&(g=1100),b.css("margin-left","-"+g*e+"px"),e++)},3e3),j=1;d.hover(function(){1==j?clearInterval(i):i=setInterval(function(){e==f?(b.css("margin-left","0px"),e=1):(g>=1100&&(g=1100),b.css("margin-left","-"+g*e+"px"),e++)},3e3)}),c.hover(function(){1==j?clearInterval(i):i=setInterval(function(){e==f?(b.css("margin-left","0px"),e=1):(g>=1100&&(g=1100),b.css("margin-left","-"+g*e+"px"),e++)},3e3)}),$(".addToCart1").click(function(){$("#bd1").css("display","flex")}),$(".addToCart2").click(function(){$("#bd2").css("display","flex")}),$(".addToCart3").click(function(){$("#bd3").css("display","flex")}),$(".addToCart4").click(function(){$("#bd4").css("display","flex")}),$(".addToCart5").click(function(){$("#bd5").css("display","flex")}),$(".addToCart6").click(function(){$("#bd6").css("display","flex")}),$(".removeItem").click(function(){$(this).parent().css("display","none")}),$(document).ready(function(){$(".minus").click(function(){var a=$(this).parent().find("input"),b=parseInt(a.val())-1;return b=b<1?1:b,a.val(b),a.change(),!1}),$(".plus").click(function(){var a=$(this).parent().find("input");return a.val(parseInt(a.val())+1),a.change(),!1})});var k=$(".readMoreInfo");k.click(function(){$(this).siblings(".moreText").is(":hidden")?($(this).text("Read Less"),$(this).siblings(".moreText").slideDown(500)):($(this).text("Read More"),$(this).siblings(".moreText").slideUp(500))})});
+$(function(){
+
+    var $chk = 1;
+
+    $('.closeMenu').on('click', function(){
+        if ($chk == 1){
+            $('.navBarList').addClass('menuUL');
+            $('.navBarList').css('display', 'block');
+            $('html').addClass('scrollNo');
+            $('.menuButton').css('display', 'none');
+            $('.closeMenu').css('display', 'block');
+            $chk=2;
+        }else{
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'none');
+            $('html').removeClass('scrollNo');
+            $('.menuButton').css('display', 'block');
+            $('.closeMenu').css('display', 'none');
+            $chk=1;
+        }
+    })
+
+    $('.menuButton').on('click', function(){
+        if ($chk == 1){
+            $('.navBarList').addClass('menuUL');
+            $('.navBarList').css('display', 'block');
+            $('html').addClass('scrollNo');
+            $('.menuButton').css('display', 'none');
+            $('.closeMenu').css('display', 'block');
+            $chk=2;
+        }else{
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'none');
+            $('html').removeClass('scrollNo');
+            $('.menuButton').css('display', 'block');
+            $('.closeMenu').css('display', 'none');
+            $chk=1;
+        }
+    })
+
+    var $slides = $('.slides');
+    var $left = $('.leftHalf');
+    var $right = $('.rightHalf');
+    var $counter = 1;
+    var $numberOfImages = 6;
+    var $screenWidth = $('.screenWidth');
+    var $fontSize = $screenWidth / 50;
+
+    $slides.css("margin-left", "0px");
+    $counter = 1;
+    $screenWidth = $(window).outerWidth();
+
+    $(window).on('resize', function(){
+        $slides.css("margin-left", "0px");
+        $counter = 1;
+        $screenWidth = $(window).outerWidth();
+        $fontSize = $screenWidth / 50;
+        $chk=1;
+        $('html').removeClass('scrollNo');
+        $('.closeMenu').css('display', 'none');
+        if ($screenWidth<1100){
+            $('.press').css("width", $fontSize*6 + "px");
+            $('.hold_text').css("max-height", (($fontSize*50)/3.28)  + "px");
+        }
+
+        if ($screenWidth>=685){
+            $('.navBarList').removeClass('menuUL');
+            $('.navBarList').css('display', 'flex');
+            $('.menuButton').css('display', 'none');
+            $chk=1;
+        }
+
+        if ($screenWidth<=684){
+            $('.navBarList').css('display', 'none');
+            $('.menuButton').css('display', 'block');
+        }
+
+        if ($screenWidth<=390){
+            $('.navBarList').css('display', 'none');
+            $('.menuButton').css('display', 'block');
+        }
+        
+    });
+
+    $(window).trigger('resize');
+
+    $right.on('click', function(){
+        if ($counter==$numberOfImages){
+            $slides.css("margin-left", "0px");
+            $counter = 1;
+        } else {
+            if ($screenWidth >= 1100){
+                $screenWidth = 1100;
+            }
+            $slides.css("margin-left", "-" + $screenWidth*$counter + "px");
+            $counter++;
+        }
+    });
+       
+    $left.on('click', function(){
+        if ($counter==1){
+            if ($screenWidth >= 1100){
+                $screenWidth = 1100;
+            }
+            $slides.css("margin-left", "-" + $screenWidth*($numberOfImages-1) + "px");
+            $counter = $numberOfImages;
+        } else {
+            if ($screenWidth >= 1100){
+                $screenWidth = 1100;
+            }
+            $slides.css("margin-left", "-" + $screenWidth * ($counter-2) + "px");
+            $counter--;
+        }
+    });
+
+    var $sliderLoop = setInterval(function(){
+        if ($counter==$numberOfImages){
+            $slides.css("margin-left", "0px");
+            $counter = 1;
+        } else {
+            if ($screenWidth >= 1100){
+                $screenWidth = 1100;
+            }
+            $slides.css("margin-left", "-" + $screenWidth*$counter + "px");
+            $counter++;
+        }
+    }, 3000);
+
+    var $m = 1;
+
+    $sliderLoop;
+    
+    $right.hover(function(){
+    if ($m==1){
+        clearInterval($sliderLoop);
+        $m++;
+    }else{
+        $sliderLoop = setInterval(function(){
+            if ($counter==$numberOfImages){
+                $slides.css("margin-left", "0px");
+                $counter = 1;
+            } else {
+                if ($screenWidth >= 1100){
+                    $screenWidth = 1100;
+                }
+                $slides.css("margin-left", "-" + $screenWidth*$counter + "px");
+                $counter++;
+            }
+        }, 3000);
+        $m--;
+    }
+    });
+
+    $left.hover(function(){
+        if ($m==1){
+            clearInterval($sliderLoop);
+            $m++;
+        }else{
+            $sliderLoop = setInterval(function(){
+                if ($counter==$numberOfImages){
+                    $slides.css("margin-left", "0px");
+                    $counter = 1;
+                } else {
+                    if ($screenWidth >= 1100){
+                        $screenWidth = 1100;
+                    }
+                    $slides.css("margin-left", "-" + $screenWidth*$counter + "px");
+                    $counter++;
+                }
+            }, 3000);
+            $m--;
+        }
+    });
+
+    $('.addToCart1').click(function(){
+        $("#bd1").css('display', 'flex');  
+        
+    });
+    $('.addToCart2').click(function(){
+        $("#bd2").css('display', 'flex');  
+        
+    });
+    $('.addToCart3').click(function(){
+        $("#bd3").css('display', 'flex');  
+        
+
+    });
+    $('.addToCart4').click(function(){
+        $("#bd4").css('display', 'flex');  
+        
+        
+    });
+    $('.addToCart5').click(function(){
+        $("#bd5").css('display', 'flex');  
+        
+    });
+    $('.addToCart6').click(function(){
+        $("#bd6").css('display', 'flex');  
+
+    });
+
+    $('.removeItem').click(function(){
+        $(this).parent().css('display', 'none');  
+    });
+
+    
+    $(document).ready(function() {
+        $('.minus').click(function () {
+            var $input = $(this).parent().find('input');
+            var count = parseInt($input.val()) - 1;
+            count = count < 1 ? 1 : count;
+            $input.val(count);
+            $input.change();
+            return false;
+        });
+        $('.plus').click(function () {
+            var $input = $(this).parent().find('input');
+            $input.val(parseInt($input.val()) + 1);
+            $input.change();
+            return false;
+        });
+    });
+
+    var $moreInfo = $('.readMoreInfo');
+
+    $moreInfo.click(function(){
+        if ($(this).siblings('.moreText').is(':hidden')){
+            $(this).text('Read Less');
+            $(this).siblings('.moreText').slideDown(500);
+        }else{
+            $(this).text('Read More');
+            $(this).siblings('.moreText').slideUp(500);
+        }
+    });
+
+});
